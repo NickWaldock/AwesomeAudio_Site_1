@@ -19,6 +19,9 @@ https://www.pexels.com/photo/black-and-red-corded-device-4087993/
 Hardware 2
 https://pixabay.com/photos/microphone-cable-mixer-music-audio-4272185/
 
+Countryside House
+https://pixabay.com/photos/nature-sunset-sunrise-countryside-1283747/
+
 
 Logo
 Canva.com
@@ -27,3 +30,7 @@ Canva.com
 
 Main Page Logo Video Responsive Design CSS
 https://allthingssmitty.com/2016/12/12/responsive-video-resizing/
+
+
+CSS Grid
+https://grid.malven.co/

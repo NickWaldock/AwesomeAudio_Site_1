@@ -12,7 +12,7 @@
     left: 50%;
     min-height: 100%;
     min-width: 100%;
-    position: absolute;
+    position: fixed;
     top: 50%;
     transform: translate(-50%, -50%);
 
@@ -25,3 +25,26 @@
         background-color: #FFF9F6;
 }
 
+
+
+/* About Us */
+
+#about-container {
+    display: grid;
+    grid-template-columns: repeat(6, 12px);
+    grid-template-rows: repeat(6, auto);
+    grid-row-gap: 1px;
+    grid-column-gap: 9px;
+    padding: 10px;
+
+
+}
+
+#cottage {
+
+    max-width: 100%;
+    height: auto;
+    grid-column-start: 1;
+    grid-column-end: 2;
+   
+}
