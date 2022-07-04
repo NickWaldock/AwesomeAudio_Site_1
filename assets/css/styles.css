@@ -1,0 +1,27 @@
+
+/* Logo */
+
+#logo-small {
+    border-radius: 50%;
+    max-width: 8%;
+    height: auto;
+}
+
+#logo-video {
+    padding-top: 100px;
+    left: 50%;
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+/* Main Page Styling */
+
+.main-style {
+        
+        background-color: #FFF9F6;
+}
+

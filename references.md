@@ -18,3 +18,7 @@ https://www.pexels.com/photo/black-and-red-corded-device-4087993/
 
 Hardware 2
 https://pixabay.com/photos/microphone-cable-mixer-music-audio-4272185/
+
+
+Logo
+Canva.com
