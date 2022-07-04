@@ -34,3 +34,7 @@ https://allthingssmitty.com/2016/12/12/responsive-video-resizing/
 
 CSS Grid
 https://grid.malven.co/
+
+
+Fonts
+Google fonts

@@ -18,6 +18,26 @@
 
 }
 
+
+/* Header */
+
+.header {
+ 
+    background-color: #004643;
+    display: inline;
+    font-family: forum, Tahoma, Verdana, sans-serif;
+    font-size: 250%;
+    text-transform: uppercase;
+    position: fixed;   
+}
+
+.header > a {
+    margin: 20px 20px 50px 20px;
+    background-color: #FFF9F6;
+    
+}
+
+
 /* Main Page Styling */
 
 .main-style {
