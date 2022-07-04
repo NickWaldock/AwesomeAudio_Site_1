@@ -22,3 +22,8 @@ https://pixabay.com/photos/microphone-cable-mixer-music-audio-4272185/
 
 Logo
 Canva.com
+
+
+
+Main Page Logo Video Responsive Design CSS
+https://allthingssmitty.com/2016/12/12/responsive-video-resizing/
