@@ -22,6 +22,14 @@ https://pixabay.com/photos/microphone-cable-mixer-music-audio-4272185/
 Countryside House
 https://pixabay.com/photos/nature-sunset-sunrise-countryside-1283747/
 
+Artist Pictures
+Artist 1: https://www.pexels.com/photo/man-playing-guitar-167445/
+Artist 2: https://www.pexels.com/search/music%20artist/
+Artist 3: https://www.pexels.com/photo/a-band-performing-on-stage-7715660/
+
+
+
+
 
 Logo
 Canva.com
