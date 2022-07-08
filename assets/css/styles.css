@@ -7,7 +7,8 @@
     height: auto;
 }
 
-#logo-video {
+/* #logo-video {
+    z-index: -1;
     padding-top: 100px;
     left: 50%;
     min-height: 100%;
@@ -16,12 +17,12 @@
     top: 50%;
     transform: translate(-50%, -50%);
 
-}
+}  */
 
 
 /* Header */
 
-.header {
+/* .header {
  
     background-color: #004643;
     display: inline;
@@ -35,7 +36,7 @@
     margin: 20px 20px 50px 20px;
     background-color: #FFF9F6;
     
-}
+} */
 
 
 /* Main Page Styling */
@@ -49,7 +50,7 @@
 
 /* About Us */
 
-#about-container {
+/* #about-container {
     display: grid;
     grid-template-columns: repeat(6, 12px);
     grid-template-rows: repeat(6, auto);
@@ -67,4 +68,15 @@
     grid-column-start: 1;
     grid-column-end: 2;
    
+} */
+
+
+
+/* Gallery */
+
+.gallery-image {
+    max-width: 100%;
+    height: auto
 }
+
+
