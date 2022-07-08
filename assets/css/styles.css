@@ -13,21 +13,9 @@
     height: auto;
 }
 
-#background-video-div {
+.center-div {
     text-align: center;
 }
-
-/* #background-video {
-    z-index: -1;
-    padding-top: 100px;
-    left: 50%;
-    min-height: 100%;
-    min-width: 100%;
-    position: fixed;
-    top: 50%;
-    transform: translate(-50%, -50%);
-
-}  */
 
 
 /* Header */
@@ -103,5 +91,8 @@
     max-width: 100%;
     height: auto
 }
+
+
+/* Map */
 
 
