@@ -28,6 +28,8 @@ Artist 2: https://www.pexels.com/search/music%20artist/
 Artist 3: https://www.pexels.com/photo/a-band-performing-on-stage-7715660/
 
 
+Equipment Images
+Borrowed from James Welch at Masterlink Productions Studio, Surrey
 
 
 
