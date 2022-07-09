@@ -20,6 +20,22 @@
 
 /* Header */
 
+
+
+#main-background {
+
+    background-image: url("/assets/images/site-images/studio-1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0px 0px;
+
+   
+
+}
+
+
+
 /* .header {
  
     background-color: #004643;
@@ -48,17 +64,13 @@
 
 /* About Us */
 
-/* #about-container {
+ #about-container {
     display: grid;
-    grid-template-columns: repeat(6, 12px);
-    grid-template-rows: repeat(6, auto);
-    grid-row-gap: 1px;
-    grid-column-gap: 9px;
-    padding: 10px;
+    
 
 
 }
-*/
+
 
  .about-img {
 
@@ -68,6 +80,22 @@
   
    
 }
+
+
+#countryside-div {
+    background-color: blue;
+}
+
+#space-div {
+    background-color: red;
+}
+
+#equipment-div {
+    background-color: green;
+}
+
+
+
 
 
 /* Artists */
