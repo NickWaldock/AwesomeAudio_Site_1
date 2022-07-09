@@ -18,21 +18,33 @@
 }
 
 
-/* Header */
+/* Main Page */
 
+.background-div {
+    min-height:100%;
+    min-width:100%;
+}
 
-
+html { 
+    background: url(/assets/images/site-images/studio-3.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+/* 
 #main-background {
-
-    background-image: url("/assets/images/site-images/studio-1.jpeg");
+   
+    background-image: url("/assets/images/site-images/studio-3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 0px 0px;
+    min-height:100%;
+    min-width:100%;
+} */
+  
 
-   
 
-}
 
 
 
@@ -55,10 +67,10 @@
 
 /* Main Page Styling */
 
-.main-style {
+/* .main-style {
         
         background-color: #FFF9F6;
-}
+} */
 
 
 

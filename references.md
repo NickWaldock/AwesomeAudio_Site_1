@@ -34,9 +34,9 @@ Borrowed from James Welch at Masterlink Productions Studio, Surrey
 Images
 studio-1, studio-2: https://www.riftstudiosnyc.com/o/
 vintage-rack: https://csmedialabs.com/studio-a-outboard-gear-preamps-and-equalizers/
-
-
-
+studio-3: https://unsplash.com/photos/ptVBlniJi50
+rack-unit-2: https://unsplash.com/photos/QnWXq1qYFyU
+rack-unit-3: https://unsplash.com/photos/MfdQgUjZP6M
 
 Logo
 Canva.com
@@ -66,3 +66,6 @@ Troubleshooting
 
 Background image opacity on footer
 https://coder-coder.com/background-image-opacity/
+
+Background Image full size
+https://css-tricks.com/perfect-full-page-background-image/
