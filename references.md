@@ -31,8 +31,9 @@ artist 3: https://www.pexels.com/photo/a-band-performing-on-stage-7715660/
 Equipment Images
 Borrowed from James Welch at Masterlink Productions Studio, Surrey
 
-Gallery Images
-studio 1: https://www.riftstudiosnyc.com/o/
+Images
+studio-1, studio-2: https://www.riftstudiosnyc.com/o/
+vintage-rack: https://csmedialabs.com/studio-a-outboard-gear-preamps-and-equalizers/
 
 
 
@@ -48,6 +49,7 @@ https://allthingssmitty.com/2016/12/12/responsive-video-resizing/
 
 CSS Grid
 https://grid.malven.co/
+Learn CSS Grid the Easy Way (Kevin Powell) https://www.youtube.com/watch?v=rg7Fvvl3taU
 
 
 Fonts
