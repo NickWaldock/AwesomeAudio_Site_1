@@ -96,3 +96,33 @@
 /* Map */
 
 
+
+
+
+/* Footer */
+
+.footer { 
+   
+    text-align: center;
+    color: black;
+    position: relative;
+
+}
+
+  .footer::before {
+    content:"";
+    background-color:#FFF9F6;
+    background-image: url("../images/site-images/microphone-inputs.jpg");
+    position: absolute;
+    opacity: 0.5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 10px 10px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+
+    
+}
