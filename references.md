@@ -22,6 +22,9 @@ https://pixabay.com/photos/microphone-cable-mixer-music-audio-4272185/
 Countryside House
 https://pixabay.com/photos/nature-sunset-sunrise-countryside-1283747/
 
+Countryside View
+https://www.pexels.com/photo/mountain-near-body-of-water-8841969/
+
 Artist Pictures
 artist 1: https://www.pexels.com/photo/man-playing-guitar-167445/
 artist 2: https://www.pexels.com/search/music%20artist/
