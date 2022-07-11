@@ -66,10 +66,15 @@ https://www.google.co.uk/maps/place/Lakefield+Boathouse/@54.5803677,-2.8972878,1
 
 
 
-Troubleshooting
+Troubleshooting & General Reference
 
 Background image opacity on footer
 https://coder-coder.com/background-image-opacity/
 
 Background Image full size
 https://css-tricks.com/perfect-full-page-background-image/
+
+Lazy Loading
+https://imagekit.io/blog/lazy-loading-images-complete-guide/#:~:text=Lazy%20Loading%20defers%20the%20loading%20of%20an%20image%20that%20is,the%20image%20actually%20becomes%20visible.
+
+https://www.w3schools.com/

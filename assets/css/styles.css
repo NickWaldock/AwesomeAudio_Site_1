@@ -209,6 +209,14 @@ nav > ul {
 
 /* Gallery */
 
+#gallery-title {
+    font-family: Forum, sans-serif;
+    font-size: 300%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
 #gallery {
     display: grid;
     width: 100%;
@@ -255,13 +263,16 @@ nav > ul {
     grid-column: 2 / 3;
     text-align: center;
     border: 2px solid black;
-    
+    border-radius: 2.5%; /* not seeming to work */
     
 }
 
 #gallery-contact > a {
 
     text-decoration: none;
+    color: black;
+    font-size: larger;
+
     
     
 }
