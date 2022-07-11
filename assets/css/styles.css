@@ -215,12 +215,16 @@ nav > ul {
     height: auto;
     gap: 1.5rem;
     grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .gallery-image {
 
     max-width: 100%;
     height: auto;
+    border-radius: 2.5%;
+    border: 2px solid black;
 }
 
 #gallery-img3 {
@@ -239,3 +243,33 @@ nav > ul {
     grid-column: 1 / 2;
 
 }
+
+
+#gallery-contact {
+
+    color: black;
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    font-size: larger;
+    grid-row: 8 / 9;
+    grid-column: 2 / 3;
+    text-align: center;
+    border: 2px solid black;
+    
+    
+}
+
+#gallery-contact > a {
+
+    text-decoration: none;
+    
+    
+}
+
+#gallery-contact a:hover {
+
+    border-bottom: 1px solid black;
+
+}
+
+
