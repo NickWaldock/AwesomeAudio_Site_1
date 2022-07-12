@@ -108,6 +108,7 @@ html {
     color: black;
     text-transform: uppercase;
     font-weight: bolder;
+    
 
 }
 
@@ -123,31 +124,35 @@ h3 {
  #about-container {
     display: grid;
     gap: 1.5rem;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    
 
 }
 
 
  .about-img {
-
-    border-radius: 8px;
-    max-width: 100%;
-    height: auto;
+    
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+    border-color: black;
+    border: solid 6px;
   
 }
 
-
+/* 
 #countryside-div {
-    background-color: blue;
+ 
 }
 
 #space-div {
-    background-color: red;
+    
 }
 
 #equipment-div {
-    background-color: green;
-}
+    
+} */
 
 
 
