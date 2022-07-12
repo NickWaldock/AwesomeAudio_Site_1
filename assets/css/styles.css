@@ -23,8 +23,13 @@
 
 nav {
     max-width: 100%;
-    max-height: 100px;
+    max-height: 150px;
+    width: 100%;
     text-align: center;
+    position: fixed;
+    background-color: #FFF9F6;
+    
+    
 }
 
 nav > ul {
@@ -37,6 +42,7 @@ nav > ul {
 .navbar li { 
 
     display: inline-block;
+    vertical-align: middle;
     padding: 1px;
     margin-inline: 20px;
     max-width: 150px;
@@ -79,57 +85,26 @@ nav > ul {
 
 /* Main Page */
 
+
 .background-div {
     min-height:100%;
     min-width:100%;
+    padding: 150px;
 }
 
-html { 
-    background: url("/assets/images/site-images/studio-1.jpg") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; 
-  }
 
-/* #main-background {
-   
-    background-image: url("/assets/images/site-images/studio-1.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    min-height: 100%;
-    min-width: 100%;
-} */
   
 
 
 
 
 
-/* .header {
- 
-    background-color: #004643;
-    display: inline;
-    font-family: forum, Tahoma, Verdana, sans-serif;
-    font-size: 250%;
-    text-transform: uppercase;
-    position: fixed;   
-}
-
-.header > a {
-    margin: 20px 20px 50px 20px;
-    background-color: #FFF9F6;
-    
-} */
-
-
 /* Main Page Styling */
 
-/* .main-style {
+.main-style {
         
         background-color: #FFF9F6;
-} */
+}
 
 
 
