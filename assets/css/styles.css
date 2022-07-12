@@ -92,12 +92,29 @@ html {
         background-color: #FFF9F6;
 }
 
-
-
 .background-div {
     min-height:100%;
     min-width:100%;
     padding: 150px;
+}
+
+.section-title { 
+
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    font-size: x-large;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bolder;
+
+}
+
+h3 {
+
+    font-family: Montserrat, sans-serif;
+    font-size: medium;
 }
 
 
@@ -134,8 +151,6 @@ html {
 
 
 
-
-
 /* Artists */
 
 .artist-img {
@@ -146,17 +161,6 @@ html {
 
 }
 
-
-
-
-
-
-/* Gallery */
-
-.gallery-image {
-    max-width: 100%;
-    height: auto
-}
 
 
 /* Map */
@@ -197,11 +201,9 @@ html {
 
 /* Gallery */
 
-#gallery-title {
-    font-family: Forum, sans-serif;
-    font-size: 300%;
-    text-align: center;
-    margin-top: 50px;
+.gallery-image {
+    max-width: 100%;
+    height: auto
 }
 
 
