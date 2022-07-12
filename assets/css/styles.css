@@ -13,10 +13,15 @@
 
     max-width: 100%;
     height: auto;
+    max-height: 100%;
+
+    
 }
 
-.center-div {
+.video-div {
     text-align: center;
+    padding-top: 150px;
+    height: 100vh;
 }
 
 /* Nav Bar */
@@ -81,9 +86,13 @@ nav > ul {
 }
 
 
+/* Main Page Styling */
 
+html {
+        
+        background-color: #FFF9F6;
+}
 
-/* Main Page */
 
 
 .background-div {
@@ -93,29 +102,12 @@ nav > ul {
 }
 
 
-  
-
-
-
-
-
-/* Main Page Styling */
-
-.main-style {
-        
-        background-color: #FFF9F6;
-}
-
-
-
 /* About Us */
 
  #about-container {
     display: grid;
     gap: 1.5rem;
     grid-template-columns: 1fr 1fr;
-    
-
 
 }
 
@@ -126,7 +118,6 @@ nav > ul {
     max-width: 100%;
     height: auto;
   
-   
 }
 
 
