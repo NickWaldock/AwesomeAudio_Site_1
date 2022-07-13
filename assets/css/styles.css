@@ -136,8 +136,10 @@ h3 {
     width: 400px;
     object-fit: cover;
     border-radius: 50%;
-    border-color: black;
-    border: solid 6px;
+    border: solid 10px #FFF9F6;
+    box-shadow: 0 0 0 6px black;
+    margin-top: 20px;
+    
   
 }
 
