@@ -277,19 +277,44 @@ h3 {
 /* Footer */
 
 .footer { 
-   
+    
     text-align: center;
     color: black;
     position: relative;
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    font-size: small;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-top: 20px;
+   
 
 }
 
+.socials li {
+
+    list-style-type: none;
+    display: inline;
+    text-align: center;
+    color: #ed7444;
+    text-shadow: 1px 1px 1px black;
+    font-size: 4.5em;
+    padding-inline-start: 200px;
+
+    
+}
+
+  /* (background footer image)
+  
   .footer::before {
     content:"";
     background-color:#FFF9F6;
     background-image: url("../images/site-images/microphone-inputs.jpg");
     position: absolute;
-    opacity: 0.5;
+    opacity: 0.2;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -299,9 +324,9 @@ h3 {
     bottom: 0px;
     left: 0px;
 
-    
 }
-
+ */
+    
 
 
 /* Gallery */
