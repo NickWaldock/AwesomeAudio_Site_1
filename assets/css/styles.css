@@ -74,7 +74,6 @@ nav > ul {
     max-width: 100%;
     height: auto;
     max-height: 100%;
-    
 
     
 }
@@ -83,6 +82,7 @@ nav > ul {
     text-align: center;
     padding-top: 150px;
     height: 100vh;
+    
 }
 
 
@@ -109,9 +109,10 @@ html {
     color: black;
     text-transform: uppercase;
     font-weight: bolder;
+    margin-top: 20px;
 
     /* grid position for 'Artist Title' */
-    grid-column: 2 / 4; 
+    grid-column: 1 / 5; 
     grid-row: 1 / 2;
 
 }
@@ -266,7 +267,10 @@ h3 {
 
 /* Map */
 
-
+#map {
+    margin-top: 20px;
+    
+}
 
 
 
