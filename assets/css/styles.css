@@ -59,7 +59,7 @@ nav > ul {
 
 }
 
-/* Logo */
+/* Logo & Video */
 
 #logo-small {
     border-radius: 50%;
@@ -74,6 +74,7 @@ nav > ul {
     max-width: 100%;
     height: auto;
     max-height: 100%;
+    
 
     
 }
@@ -108,7 +109,10 @@ html {
     color: black;
     text-transform: uppercase;
     font-weight: bolder;
-    
+
+    /* grid position for 'Artist Title' */
+    grid-column: 2 / 4; 
+    grid-row: 1 / 2;
 
 }
 
@@ -157,7 +161,6 @@ h3 {
     font-weight: bold;
     font-size: large;
    
-    
 }
 
 
@@ -172,11 +175,7 @@ h3 {
     box-shadow: 0 0 0 6px black;
     margin-top: 20px;
     
-  
 }
-
-
-
 
 
 
@@ -189,6 +188,13 @@ h3 {
     grid-template-columns: repeat(4, 1fr);
     gap: 1.5rem;
 }
+
+/* #artists h2 {
+
+   
+} */
+
+
 
 
 .artist-img {
@@ -210,8 +216,53 @@ h3 {
 }
 
 
+#artist1-img {
+
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
 
 
+}
+
+
+#artist1-text {
+
+    grid-column: 2 / 5;
+    grid-row: 2 / 3;
+
+}
+
+#artist2-img {
+
+    grid-column: 4 / 5;
+    grid-row: 3 / 4;
+
+
+}
+
+
+#artist2-text {
+
+    grid-column: 1 / 4;
+    grid-row: 3 / 4;
+
+}
+
+#artist3-img {
+
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+
+
+}
+
+
+#artist3-text {
+
+    grid-column: 2 / 5;
+    grid-row: 4 / 5;
+
+}
 
 /* Map */
 
@@ -312,8 +363,6 @@ h3 {
     text-decoration: none;
     color: black;
     font-size: larger;
-
-    
     
 }
 
