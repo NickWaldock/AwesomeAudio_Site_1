@@ -90,12 +90,12 @@ nav > ul {
 
 html {
         
-        background-color: #FFF9F6;
+    background-color: #FFF9F6;
 }
 
 .background-div {
-    min-height:100%;
-    min-width:100%;
+    min-height: 100%;
+    min-width: 100%;
     padding: 150px;
 }
 
@@ -294,9 +294,15 @@ h3 {
     color: black;
     text-transform: uppercase;
     font-weight: bolder;
+    line-height: 20px;
     margin-top: 20px;
    
 
+}
+
+.socials {
+
+    padding-inline-start: 0;
 }
 
 .socials li {
@@ -307,9 +313,8 @@ h3 {
     color: #ed7444;
     text-shadow: 1px 1px 1px black;
     font-size: 4.5em;
-    padding-inline-start: 200px;
+    padding: 2vmin 14vmin;
 
-    
 }
 
   /* (background footer image)

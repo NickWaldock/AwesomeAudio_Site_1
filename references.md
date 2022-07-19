@@ -80,3 +80,45 @@ https://imagekit.io/blog/lazy-loading-images-complete-guide/#:~:text=Lazy%20Load
 https://www.w3schools.com/
 
 https://css-tricks.com/child-and-sibling-selectors/
+
+
+
+
+
+From John - Tutor
+Full page background image:
+https://css-tricks.com/perfect-full-page-background-image/
+Concepts to Simplify CSS:
+https://www.youtube.com/watch?v=nYyFf-97Qqg&t
+Position:
+https://css-tricks.com/almanac/properties/p/position/
+Height/Width:
+https://css-tricks.com/exploring-the-complexities-of-width-and-height-in-css/
+Height / Width as regards Images:
+https://www.smashingmagazine.com/2020/03/setting-height-width-images-important-again/
+Using the right CSS units:
+https://www.youtube.com/watch?v=N5wpD9Ov_To
+Padding/Margin:
+https://css-tricks.com/almanac/properties/p/padding/
+https://css-tricks.com/almanac/properties/m/margin/
+https://css-tricks.com/forums/topic/padding-vs-margin/
+Flexbox Froggy - A game for learning flexbox:
+https://flexboxfroggy.com/
+For FULL LAYOUTS using Flexbox:
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+Understanding flexbox:
+https://www.youtube.com/watch?v=9e-lWQdO-DA
+https://www.youtube.com/watch?v=fYq5PXgSsbE
+Build a simple layout with flexbox:
+https://www.youtube.com/watch?v=JqJNhM8i-nc
+CSS Grid:
+https://css-tricks.com/snippets/css/complete-guide-grid/
+https://css-tricks.com/dont-overthink-flexbox-grids/
+CSS Grid with Kevin Powell:
+https://www.youtube.com/watch?v=rg7Fvvl3taU
+https://www.youtube.com/watch?v=_lEkD8IGkwo
+Media Queries:
+https://css-tricks.com/a-complete-guide-to-css-media-queries/
+https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
+Auto Pre-fixer (use to add vendor/browser specific prefixes to your CSS rules for cross-browser compatibility):
+https://autoprefixer.github.io/
