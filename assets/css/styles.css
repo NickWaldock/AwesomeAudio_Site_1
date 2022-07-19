@@ -1,5 +1,10 @@
 /* Nav Bar */
 
+body {
+
+    padding-top: 10%;
+
+}
 
 
 nav {
@@ -348,6 +353,29 @@ h3 {
 }
 
 /* Gallery */
+
+.gallery-title {
+
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    font-size: xx-large;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-top: 20px;
+
+}
+
+.gallery-title h3 {
+
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    color: black;
+    font-size: xx-large;
+    font-weight: bolder;
+}
 
 .gallery-image {
     max-width: 100%;
