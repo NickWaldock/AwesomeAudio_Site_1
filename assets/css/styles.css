@@ -198,11 +198,20 @@ h3 {
     width: 500px;
     object-fit: cover;
 
-    
-
 }
 
+.artist-bio-center {
 
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    font-family: Forum, sans-serif;
+    color: black;
+    letter-spacing: 2px;
+    line-height: 35px;
+
+
+}
 
 .artist-bio h3 {
 
@@ -213,15 +222,6 @@ h3 {
     font-weight: bolder;
     
 
-}
-
-.artist-bio p {
-
-    text-align: center;
-    font-family: Forum, sans-serif;
-    color: black;
-    letter-spacing: 2px;
-    padding-top: 1rem;
 }
 
 
