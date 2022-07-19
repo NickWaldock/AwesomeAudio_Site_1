@@ -15,6 +15,7 @@ nav {
     left: 0;
     top: 0;
     padding: 10px;
+    z-index: 2;
 }
 
 .navbar {
@@ -457,6 +458,7 @@ h3 {
     gap: 1.5rem;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 40vh 40vh;
+    z-index: -1;
 }
 
 #mics {
@@ -497,7 +499,7 @@ h3 {
     
 }
 
-#software {
+#daw {
 
     background-image: url(/assets/images/equipment-images/software1.jpg);
     background-color: #ed7444;
@@ -507,4 +509,27 @@ h3 {
     border-radius: 8px;
     background-position: center;
     
+}
+
+/* .equipment-info:hover {
+
+    opacity: 0.3;
+    z-index: -1;
+
+} */
+
+.overlay {
+
+    display: none;
+
+}
+
+.overlay:hover {
+
+    display: block;
+    background-color: #FFF9F6;
+    opacity: 0.3;
+    height: 80%;
+    width: 80%;
+    z-index: 1;
 }
