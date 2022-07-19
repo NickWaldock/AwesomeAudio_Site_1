@@ -78,3 +78,5 @@ Lazy Loading
 https://imagekit.io/blog/lazy-loading-images-complete-guide/#:~:text=Lazy%20Loading%20defers%20the%20loading%20of%20an%20image%20that%20is,the%20image%20actually%20becomes%20visible.
 
 https://www.w3schools.com/
+
+https://css-tricks.com/child-and-sibling-selectors/
