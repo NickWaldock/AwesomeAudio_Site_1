@@ -419,4 +419,56 @@ h3 {
 
 }
 
+/* Equipment */
 
+#equipment {
+
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 40vh 40vh;
+}
+
+#mics {
+
+    background-image: url(/assets/images/equipment-images/microphone1.jpg);
+    background-color: #ed7444;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-position: center;
+}
+
+#instruments {
+    
+    background-image: url(/assets/images/equipment-images/intruments1.jpg);
+    background-color: #ed7444;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-position: center;
+}
+
+#hardware {
+
+    background-image: url(/assets/images/equipment-images/hardware1.jpg);
+    background-color: #ed7444;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-position: center;
+}
+
+#software {
+
+    background-image: url(/assets/images/equipment-images/software1.jpg);
+    background-color: #ed7444;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-position: center;
+}
