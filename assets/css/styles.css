@@ -131,7 +131,6 @@ h3 {
     gap: 1.5rem;
     grid-template-columns: 1fr 1fr 1fr;
     
-
 }
 
 #about-container p {
@@ -165,7 +164,6 @@ h3 {
 }
 
 
-
  .about-img {
     
     height: 400px;
@@ -191,27 +189,20 @@ h3 {
 }
 
 
-
-
-
-
 .artist-img {
 
+    display: block;
     border-radius: 8px;
     max-width: 100%;
-    height: auto;
+    height: 300px;
+    width: 500px;
+    object-fit: cover;
+
+    
 
 }
 
 
-.artist-bio {
-
-    text-align: center;
-    font-family: Forum, sans-serif;
-    color: black;
-    font-weight: bold;
-
-}
 
 .artist-bio h3 {
 
