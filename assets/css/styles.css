@@ -1,34 +1,46 @@
 /* Nav Bar */
 
+
+
 nav {
-    max-width: 100%;
-    max-height: 150px;
-    width: 100%;
-    text-align: center;
+    width: 100vw;
+    height: auto;
     position: fixed;
     background-color: #FFF9F6;
-    
-    
+    left: 0;
+    top: 0;
+    padding: 10px;
 }
 
-nav > ul {
-
-    list-style-type: none;
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: 1;
+    gap: 1rem;
     
 }
-
+        
 
 .navbar li { 
 
+    flex-grow: 1;
+    flex-shrink: 1;
+    list-style-type: none;
+
+}
+/* 
     display: inline-block;
     vertical-align: middle;
-    padding: 1px;
-    margin-inline: 20px;
     max-width: 150px;
     min-width: 130px;
     text-align: center;
     
-} 
+}*/
+    
+
 
 .navbar a {
     
@@ -317,26 +329,7 @@ h3 {
 
 }
 
-  /* (background footer image)
-  
-  .footer::before {
-    content:"";
-    background-color:#FFF9F6;
-    background-image: url("../images/site-images/microphone-inputs.jpg");
-    position: absolute;
-    opacity: 0.2;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    padding: 10px 10px;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
 
-}
- */
-    
 
 
 /* Gallery */
