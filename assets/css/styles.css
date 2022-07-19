@@ -308,7 +308,6 @@ h3 {
     font-weight: bolder;
     line-height: 20px;
     margin-top: 20px;
-   
 
 }
 
@@ -326,11 +325,21 @@ h3 {
     text-shadow: 1px 1px 1px black;
     font-size: 4.5em;
     padding: 2vmin 14vmin;
+    
 
 }
 
+.socials a:visited, a {
 
+    color:#ed7444;
+    text-decoration: none;
+    
+}
 
+#footer-text a:visited, a {
+    color: black;
+
+}
 
 /* Gallery */
 
