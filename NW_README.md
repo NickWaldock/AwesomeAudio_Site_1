@@ -11,6 +11,13 @@ Trouble shooting
 Using outlinesand borders for images
 
 
+After Mid-point Call
+Massivley scale down images
+remove video background
+responsiveness
+format for phone
+
+
 
 Footer
 

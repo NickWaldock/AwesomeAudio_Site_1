@@ -37,17 +37,6 @@ nav {
 
 }
 
-/* 
-    display: inline-block;
-    vertical-align: middle;
-    max-width: 150px;
-    min-width: 130px;
-    text-align: center;
-    
-}*/
-
-
-
 .navbar a {
 
     width: 100%;
@@ -77,31 +66,27 @@ nav {
 
 }
 
-/* Logo & Video */
+/* Logo */
+
+#homepage {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10%;
+}
 
 #logo-small {
     border-radius: 50%;
     max-height: 100px;
     height: auto;
 
+}
+
+#logo-main {
 
 }
 
-#background-video {
-
-    max-width: 100%;
-    height: auto;
-    max-height: 100%;
-
-
-}
-
-.video-div {
-    text-align: center;
-    padding-top: 150px;
-    height: 100vh;
-
-}
 
 
 /* Main Page Styling */
@@ -111,11 +96,6 @@ html {
     background-color: #FFF9F6;
 }
 
-.background-div {
-    min-height: 100%;
-    min-width: 100%;
-    padding: 150px;
-}
 
 .section-title {
 
@@ -467,7 +447,7 @@ a {
 
 #mics {
 
-    background-image: url(/assets/images/equipment-images/microphone1.jpg);
+    background-image: url(/assets/images/equipment-images/microphone1.webp);
     background-color: #ed7444;
     background-repeat: no-repeat;
     background-size: cover;
@@ -480,7 +460,7 @@ a {
 
 #instruments {
 
-    background-image: url(/assets/images/equipment-images/intruments1.jpg);
+    background-image: url(/assets/images/equipment-images/instruments1.webp);
     background-color: #ed7444;
     background-repeat: no-repeat;
     background-size: cover;
@@ -492,7 +472,7 @@ a {
 
 #hardware {
 
-    background-image: url(/assets/images/equipment-images/hardware1.jpg);
+    background-image: url(/assets/images/equipment-images/hardware1.webp);
     background-color: #ed7444;
     background-repeat: no-repeat;
     background-size: cover;
@@ -505,7 +485,7 @@ a {
 
 #daw {
 
-    background-image: url(/assets/images/equipment-images/software1.jpg);
+    background-image: url(/assets/images/equipment-images/software1.webp);
     background-color: #ed7444;
     background-repeat: no-repeat;
     background-size: cover;
@@ -515,29 +495,7 @@ a {
 
 }
 
-/* .equipment-info:hover {
 
-    opacity: 0.3;
-    z-index: -1;
-
-} */
-/* 
-.overlay {
-
-    visibility: hidden;
-
-}
-
-.overlay:hover div {
-
-    visibility: visible;
-    display: block;
-    background-color: #FFF9F6;
-    opacity: 0.3;
-    height: 80%;
-    width: 80%;
-    z-index: 2;
-} */
 
 .equipment-info {
 
