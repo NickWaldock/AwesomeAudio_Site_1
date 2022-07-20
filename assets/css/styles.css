@@ -6,7 +6,6 @@ body {
 
 }
 
-
 nav {
     width: 100vw;
     height: auto;
@@ -26,17 +25,18 @@ nav {
     flex-wrap: wrap;
     flex: 1;
     gap: 1rem;
-    
-}
-        
 
-.navbar li { 
+}
+
+
+.navbar li {
 
     flex-grow: 1;
     flex-shrink: 1;
     list-style-type: none;
 
 }
+
 /* 
     display: inline-block;
     vertical-align: middle;
@@ -45,11 +45,11 @@ nav {
     text-align: center;
     
 }*/
-    
+
 
 
 .navbar a {
-    
+
     width: 100%;
     text-align: center;
     float: left;
@@ -59,7 +59,7 @@ nav {
     text-transform: uppercase;
     font-weight: bold;
     font-size: large;
-   
+
 }
 
 
@@ -83,8 +83,8 @@ nav {
     border-radius: 50%;
     max-height: 100px;
     height: auto;
-    
- 
+
+
 }
 
 #background-video {
@@ -93,21 +93,21 @@ nav {
     height: auto;
     max-height: 100%;
 
-    
+
 }
 
 .video-div {
     text-align: center;
     padding-top: 150px;
     height: 100vh;
-    
+
 }
 
 
 /* Main Page Styling */
 
 html {
-        
+
     background-color: #FFF9F6;
 }
 
@@ -117,7 +117,7 @@ html {
     padding: 150px;
 }
 
-.section-title { 
+.section-title {
 
     font-family: Montserrat, sans-serif;
     text-align: center;
@@ -130,7 +130,7 @@ html {
     margin-top: 20px;
 
     /* grid position for 'Artist Title' */
-    grid-column: 1 / 5; 
+    grid-column: 1 / 5;
     grid-row: 1 / 2;
 
 }
@@ -144,11 +144,11 @@ h3 {
 
 /* About Us */
 
- #about-container {
+#about-container {
     display: grid;
     gap: 1.5rem;
     grid-template-columns: 1fr 1fr 1fr;
-    
+
 }
 
 #about-container p {
@@ -178,12 +178,12 @@ h3 {
     text-transform: uppercase;
     font-weight: bold;
     font-size: large;
-   
+
 }
 
 
- .about-img {
-    
+.about-img {
+
     height: 400px;
     width: 400px;
     object-fit: cover;
@@ -191,7 +191,7 @@ h3 {
     border: solid 10px #FFF9F6;
     box-shadow: 0 0 0 6px black;
     margin-top: 20px;
-    
+
 }
 
 
@@ -238,7 +238,7 @@ h3 {
     color: black;
     font-size: large;
     font-weight: bolder;
-    
+
 
 }
 
@@ -292,15 +292,15 @@ h3 {
 
 #map {
     margin-top: 20px;
-    
+
 }
 
 
 
 /* Footer */
 
-.footer { 
-    
+.footer {
+
     text-align: center;
     color: black;
     position: relative;
@@ -325,7 +325,7 @@ h3 {
     justify-content: center;
     flex: 1;
     gap: 1rem;
-  
+
     padding-inline-start: 0;
 }
 
@@ -341,14 +341,16 @@ h3 {
 
 }
 
-.socials a:visited, a {
+.socials a:visited,
+a {
 
-    color:#ed7444;
+    color: #ed7444;
     text-decoration: none;
-    
+
 }
 
-#footer-text a:visited, a {
+#footer-text a:visited,
+a {
     color: black;
 
 }
@@ -431,16 +433,17 @@ h3 {
     grid-column: 2 / 3;
     text-align: center;
     border: 2px solid black;
-    border-radius: 2.5%; /* not seeming to work */
-    
+    border-radius: 2.5%;
+    /* not seeming to work */
+
 }
 
-#gallery-contact > a {
+#gallery-contact>a {
 
     text-decoration: none;
     color: black;
     font-size: larger;
-    
+
 }
 
 #gallery-contact a:hover {
@@ -459,7 +462,7 @@ h3 {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 40vh 40vh;
     z-index: -1;
-    
+
 }
 
 #mics {
@@ -471,12 +474,12 @@ h3 {
     border: 2px solid black;
     border-radius: 8px;
     background-position-y: 22%;
-    
-    
+
+
 }
 
 #instruments {
-    
+
     background-image: url(/assets/images/equipment-images/intruments1.jpg);
     background-color: #ed7444;
     background-repeat: no-repeat;
@@ -484,7 +487,7 @@ h3 {
     border: 2px solid black;
     border-radius: 8px;
     background-position-y: 80%;
-    
+
 }
 
 #hardware {
@@ -496,8 +499,8 @@ h3 {
     border: 2px solid black;
     border-radius: 8px;
     background-position-y: 37%;
-    
-    
+
+
 }
 
 #daw {
@@ -509,7 +512,7 @@ h3 {
     border: 2px solid black;
     border-radius: 8px;
     background-position: center;
-    
+
 }
 
 /* .equipment-info:hover {
@@ -545,13 +548,13 @@ h3 {
 }
 
 .overlay {
-   
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 90%;
     height: 90%;
-    background-color: rgb(251,191,167, 0.7);
+    background-color: rgb(251, 191, 167, 0.7);
     border: 2px solid black;
     border-radius: 8px;
     text-align: center;
@@ -564,7 +567,7 @@ h3 {
     text-transform: uppercase;
     font-weight: bolder;
     font-size: xx-large;
-   
+
 }
 
 .overlay p {
@@ -594,7 +597,7 @@ h3 {
 }
 
 .contact-label {
-    
+
     font-family: Montserrat, sans-serif;
     font-size: large;
     border-top: 2px solid black;
@@ -603,7 +606,7 @@ h3 {
     text-transform: uppercase;
     font-weight: normal;
     margin-top: 20px;
-} 
+}
 
 .contact-input {
 
@@ -616,7 +619,7 @@ h3 {
 
     width: 75%;
     height: 300px;
-    
+
 }
 
 #submit-button {
