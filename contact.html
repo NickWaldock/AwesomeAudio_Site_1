@@ -43,27 +43,34 @@
 <section>
     <form action="contact-form" id="contact" method="post">
         <div id="contact-container">
-        <h2>Contact Us</h2>
+        <h2 class="section-title">Contact Us</h2>
 
-        <label for="name">
+        <label for="name" class="contact-label">
             Name
         </label>
-        <input name="name" placeholder="Name" type="text">
+        <input name="name" placeholder="Name" type="text" class="contact-input">
 
-        <label for="email">
+        <label for="email" class="contact-label">
             Email
         </label>
-        <input name="email" placeholder="Email" type="email">
+        <input name="email" placeholder="Email" type="email" class="contact-input">
 
-        <label for="message">
+        <label for="message" class="contact-label">
             Message
         </label>
-        <input name="message" placeholder="Write your message here..." type="text">
+        <input name="message" placeholder="Write your message here..." type="text" id="contact-msg">
 
-        <input type="submit" value="Submit" action="_blank" href="thankyou.html">
+        <!-- <input type="submit" value="SEND" id="submit-button"> -->
+        <button>
+            <i class="fa-solid fa-paper-plane-top" class="submit-button">SEND</i>
+        </button>
+
+        <!-- <input type="submit" value="Send" action="_blank" href="thankyou.html" id="submit-button"><i class="fa-solid fa-paper-plane-top"></i> -->
         </div>
     </form>
 </section>
+
+</button>
 
 <!-- Footer -------------------------------------------------------------------------------------------------------------------------------->
 <footer>

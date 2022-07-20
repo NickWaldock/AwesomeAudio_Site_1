@@ -577,3 +577,56 @@ h3 {
     line-height: 30px;
 }
 
+/* Contact Form */
+
+
+#contact-container {
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    border: 3px solid black;
+    border-radius: 8px;
+    text-align: center;
+    align-items: center;
+
+
+}
+
+.contact-label {
+    
+    font-family: Montserrat, sans-serif;
+    font-size: large;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    color: black;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin-top: 20px;
+} 
+
+.contact-input {
+
+    width: 25%;
+    height: 20px;
+
+}
+
+#contact-msg {
+
+    width: 75%;
+    height: 300px;
+    
+}
+
+#submit-button {
+
+    width: 25%;
+    height: 20px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 30px;
+
+
+}

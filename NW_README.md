@@ -15,3 +15,6 @@ Using outlinesand borders for images
 Footer
 
 had issues with styling, link icons changing, changed row order of text, decided to add home link to main logo img and move it inline with icons
+
+Equipment
+hover reveal elements
