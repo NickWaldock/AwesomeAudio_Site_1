@@ -15,7 +15,7 @@ nav {
     left: 0;
     top: 0;
     padding: 10px;
-    z-index: 2;
+    z-index: 3;
 }
 
 .navbar {
@@ -459,6 +459,7 @@ h3 {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 40vh 40vh;
     z-index: -1;
+    
 }
 
 #mics {
@@ -517,19 +518,62 @@ h3 {
     z-index: -1;
 
 } */
-
+/* 
 .overlay {
 
-    display: none;
+    visibility: hidden;
 
 }
 
-.overlay:hover {
+.overlay:hover div {
 
+    visibility: visible;
     display: block;
     background-color: #FFF9F6;
     opacity: 0.3;
     height: 80%;
     width: 80%;
-    z-index: 1;
+    z-index: 2;
+} */
+
+.equipment-info {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+.overlay {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    height: 90%;
+    background-color: rgb(251,191,167, 0.7);
+    border: 2px solid black;
+    border-radius: 8px;
+    text-align: center;
+
+}
+
+.overlay h4 {
+
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: xx-large;
+   
+}
+
+.overlay p {
+
+    text-align: center;
+    font-family: Monserrat, sans-serif;
+    font-size: larger;
+    color: black;
+    font-weight: normal;
+    line-height: 30px;
+}
+
