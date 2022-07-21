@@ -1,4 +1,4 @@
-/* Nav Bar */
+/* ------------------------------------------------- Nav Bar ------------------------------------------------- */
 
 body {
 
@@ -66,7 +66,7 @@ nav {
 
 }
 
-/* Logo */
+/* ------------------------------------------------- Logo ------------------------------------------------- */
 
 #homepage {
 
@@ -78,10 +78,10 @@ nav {
 
 #homepage h3 {
 
-        font-family: Montserrat, Sans serif;
-        font-size: xx-large;
-        text-transform: uppercase;
-        
+    font-family: Montserrat, Sans serif;
+    font-size: xx-large;
+    text-transform: uppercase;
+
 }
 
 #logo-small {
@@ -93,7 +93,7 @@ nav {
 
 
 
-/* Main Page Styling */
+/* ------------------------------------------------- Main Page Styling ------------------------------------------------- */
 
 html {
 
@@ -126,7 +126,7 @@ h3 {
 }
 
 
-/* About Us */
+/* ------------------------------------------------- About Us ------------------------------------------------- */
 
 #about-container {
     display: grid;
@@ -138,13 +138,13 @@ h3 {
 }
 
 #about-container div {
-    
+
     text-align: center;
 
 }
 
 .about-img {
-    
+
     height: 400px;
     width: 400px;
     object-fit: cover;
@@ -152,7 +152,7 @@ h3 {
     border: solid 10px #FFF9F6;
     box-shadow: 0 0 0 6px black;
     margin-top: 20px;
-    
+
 }
 
 .about-img-div {
@@ -184,7 +184,7 @@ h3 {
 }
 
 .about-link {
-    
+
     grid-row: 3 / 4;
     width: 100%;
     text-align: center;
@@ -199,7 +199,7 @@ h3 {
 }
 
 
-/* Artists */
+/* ------------------------------------------------- Artists ------------------------------------------------- */
 
 #artists {
 
@@ -293,7 +293,7 @@ h3 {
 
 }
 
-/* Map */
+/* ------------------------------------------------- Map ------------------------------------------------- */
 
 #map {
     margin-top: 20px;
@@ -302,7 +302,32 @@ h3 {
 
 
 
-/* Footer */
+/* ------------------------------------------------- Footer ------------------------------------------------- */
+
+.jump-btn {
+
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 150px;
+    height: auto;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.jump-btn i {
+
+    font-size: 400%;
+    color: #ed7444;
+
+}
+
+.jump-btn a {
+
+    font-family: Montserrat, sans serif;
+    font-size: larger;
+
+}
+
 
 .footer {
 
@@ -360,7 +385,7 @@ a {
 
 }
 
-/* Gallery */
+/* ------------------------------------------------- Gallery Page ------------------------------------------------- */
 
 .gallery-title {
 
@@ -420,7 +445,7 @@ a {
 #gallery-img5 {
     grid-row: 4 / 6;
     grid-column: 2 / 3;
-    
+
 }
 
 
@@ -428,7 +453,7 @@ a {
     grid-row: 3 / 5;
     grid-column: 1 / 2;
 
-} 
+}
 
 
 #gallery-contact {
@@ -437,7 +462,7 @@ a {
     justify-content: center;
 }
 
-#gallery-contact > div {
+#gallery-contact>div {
 
     margin-top: 20px;
     width: 30%;
@@ -450,7 +475,7 @@ a {
     text-align: center;
 }
 
-#gallery-contact > a {
+#gallery-contact>a {
 
     text-decoration: none;
     color: black;
@@ -458,8 +483,8 @@ a {
     font-family: Montserrat, sans-serif;
     text-transform: uppercase;
     font-size: larger;
-    
-    
+
+
 
 }
 
@@ -469,7 +494,7 @@ a {
 
 }
 
-/* Equipment */
+/* ------------------------------------------------- Equipment ------------------------------------------------- */
 
 #equipment {
 
@@ -575,7 +600,7 @@ a {
     line-height: 30px;
 }
 
-/* Contact Form */
+/* ------------------------------------------------- Contact Page ------------------------------------------------- */
 
 
 #contact-container {
@@ -623,19 +648,19 @@ a {
     background-color: #FFF9F6;
     font-size: 300%;
     margin-bottom: 30px;
-    
+
 }
 
 
 
-/* Thank You Page */
+/* ------------------------------------------------- Thank You Page ------------------------------------------------- */
 
 #thankyou {
 
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-    align-items:center;
+    align-items: center;
     justify-content: space-between;
     border: none;
 }
@@ -665,8 +690,8 @@ a {
 
 #footer-contact {
 
-        position: absolute;
-        bottom: 0;
-        width: 100%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 
 }
