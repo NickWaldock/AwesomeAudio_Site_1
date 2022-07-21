@@ -81,8 +81,8 @@ https://www.w3schools.com/
 
 https://css-tricks.com/child-and-sibling-selectors/
 
-
-
+Footer on Thank You Page
+https://www.geeksforgeeks.org/how-to-create-footer-to-stay-at-the-bottom-of-a-web-page/#:~:text=To%20make%20a%20footer%20fixed,you%20could%20use%20position%3A%20fixed.&text=%3C%20div%20id%20%3D%20%22footer%22,the%20bottom%20of%20the%20page.
 
 
 From John - Tutor

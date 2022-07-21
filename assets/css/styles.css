@@ -593,3 +593,44 @@ a {
 
 
 /* Thank You Page */
+
+#thankyou {
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items:center;
+    justify-content: space-between;
+    border: none;
+}
+
+.contact-text p {
+
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 3px;
+
+}
+
+#back-btn a {
+
+    color: #ed7444;
+    border: none;
+    background-color: #FFF9F6;
+    font-size: 150%;
+    margin-bottom: 30px;
+    letter-spacing: 5px;
+    font-family: Montserrat, sans-serif;
+
+}
+
+
+#footer-contact {
+
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+
+}
