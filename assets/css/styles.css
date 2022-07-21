@@ -76,14 +76,18 @@ nav {
     padding-bottom: 10%;
 }
 
+#homepage h3 {
+
+        font-family: Montserrat, Sans serif;
+        font-size: xx-large;
+        text-transform: uppercase;
+        
+}
+
 #logo-small {
     border-radius: 50%;
     max-height: 100px;
     height: auto;
-
-}
-
-#logo-main {
 
 }
 
