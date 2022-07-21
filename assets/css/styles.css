@@ -228,8 +228,10 @@ h3 {
     text-align: justify;
     font-family: Forum, sans-serif;
     color: black;
-    letter-spacing: 2px;
-    line-height: 35px;
+    font-weight: bold;
+    font-size: 150%;
+    line-height: 30px;
+
 
 
 }
@@ -581,7 +583,6 @@ a {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-    border: 3px solid black;
     border-radius: 8px;
     text-align: center;
     align-items: center;
