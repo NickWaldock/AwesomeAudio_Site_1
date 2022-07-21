@@ -408,24 +408,33 @@ a {
 
 #gallery-contact {
 
-    color: black;
-    font-family: Montserrat, sans-serif;
-    text-transform: uppercase;
-    font-size: larger;
-    grid-row: 8 / 9;
-    grid-column: 2 / 3;
-    text-align: center;
-    border: 2px solid black;
-    border-radius: 2.5%;
-    /* not seeming to work */
-
+    display: flex;
+    justify-content: center;
 }
 
-#gallery-contact>a {
+#gallery-contact > div {
+
+    margin-top: 20px;
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    font-size: 300%;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#gallery-contact > a {
 
     text-decoration: none;
     color: black;
     font-size: larger;
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    font-size: larger;
+    
+    
 
 }
 
