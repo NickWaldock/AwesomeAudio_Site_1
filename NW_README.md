@@ -11,8 +11,9 @@ Trouble shooting
 Using outlinesand borders for images
 
 
+
 After Mid-point Call
-Massivley scale down images
+Massivley scale down images - problem with sizes in grid, min/max- width
 remove video background
 responsiveness
 format for phone
