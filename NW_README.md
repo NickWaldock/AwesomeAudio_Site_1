@@ -17,6 +17,8 @@ remove video background
 responsiveness
 format for phone
 
+submit form - not free icon - GET instead of PUSH
+
 
 
 Footer

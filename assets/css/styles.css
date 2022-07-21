@@ -580,14 +580,16 @@ a {
 
 }
 
-#submit-button {
+#contact-container button {
 
-    width: 25%;
-    height: 20px;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
-    font-family: Montserrat, sans-serif;
+    color: #ed7444;
+    border: none;
+    background-color: #FFF9F6;
+    font-size: 300%;
     margin-bottom: 30px;
-
-
+    
 }
+
+
+
+/* Thank You Page */
