@@ -130,16 +130,39 @@ h3 {
 
 #about-container {
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.5fr 0.5fr 0.2fr;
     gap: 1.5rem;
-    grid-template-columns: 1fr 1fr 1fr;
     max-width: 100vw;
 
 }
 
 #about-container div {
-
-    text-align: center;
     
+    text-align: center;
+
+}
+
+.about-img {
+    
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: solid 10px #FFF9F6;
+    box-shadow: 0 0 0 6px black;
+    margin-top: 20px;
+    
+}
+
+.about-img-div {
+
+    grid-row: 1 / 2;
+}
+
+.about-text {
+
+    grid-row: 2 / 3;
 }
 
 #about-container p {
@@ -147,6 +170,7 @@ h3 {
     font-family: Forum, sans-serif;
     color: black;
     font-weight: bold;
+    font-size: 150%;
 }
 
 #about-container h3 {
@@ -156,10 +180,12 @@ h3 {
     font-size: large;
     font-weight: bolder;
     padding-top: 10px;
-    text-decoration: underline overline;
+
 }
 
 .about-link {
+    
+    grid-row: 3 / 4;
     width: 100%;
     text-align: center;
     float: left;
@@ -170,19 +196,6 @@ h3 {
     font-weight: bold;
     font-size: large;
 
-}
-
-
-.about-img {
-
-    height: 400px;
-    width: 400px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: solid 10px #FFF9F6;
-    box-shadow: 0 0 0 6px black;
-    margin-top: 20px;
-    
 }
 
 
