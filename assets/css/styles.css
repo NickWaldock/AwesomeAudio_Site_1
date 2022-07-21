@@ -364,6 +364,8 @@ a {
     max-width: 100%;
     height: auto;
     background-color: #ed7444;
+    min-width: 100%;
+    min-height: 100%;
 }
 
 
@@ -391,8 +393,9 @@ a {
 }
 
 #gallery-img5 {
-    grid-row: 2 / 4;
+    grid-row: 4 / 6;
     grid-column: 2 / 3;
+    
 }
 
 
@@ -400,7 +403,7 @@ a {
     grid-row: 3 / 5;
     grid-column: 1 / 2;
 
-}
+} 
 
 
 #gallery-contact {
