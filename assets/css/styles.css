@@ -106,7 +106,6 @@ html, body {
 }
 
 
-
 .section-title {
 
     font-family: Montserrat, sans-serif;
@@ -136,11 +135,12 @@ h3 {
 
 #about-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: repeat(3, 1fr); */
     /* grid-template-rows: 0.5fr 0.5fr 0.2fr; */
-    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, .5fr));
+    gap: 1.3rem;
+    justify-content: center;
     max-width: 100vw;
-
 
 }
 
@@ -148,26 +148,30 @@ h3 {
 
     height: 100%;
     width: auto;
-    border: 4px solid hotpink;
+    box-shadow: 0 .25rem 1rem rgb(0 0 0 / .1);
     text-align: center;
+    aspect-ratio: 1 / 1.3;
+    margin-top: 1rem;
 
 }
 
 .card-img {
 
-    
     max-width: 60%;
     max-height: 60%;
     object-fit: cover;
     border-radius: 50%;
     border: solid 10px #FFF9F6;
-    box-shadow: 0 0 0 6px black;
+    box-shadow: 0 0 0 4px black;
     aspect-ratio: 1 / 1;
-
+    margin-top: 1rem;
+    
 }
 
 .card-content {
 
+    margin: 1rem;
+    max-width: 100%;
 
 }
 
@@ -178,6 +182,7 @@ h3 {
 
 .card-text {
 
+    
 
 }
 
