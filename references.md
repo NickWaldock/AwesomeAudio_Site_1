@@ -125,3 +125,14 @@ https://css-tricks.com/a-complete-guide-to-css-media-queries/
 https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
 Auto Pre-fixer (use to add vendor/browser specific prefixes to your CSS rules for cross-browser compatibility):
 https://autoprefixer.github.io/
+Position:
+https://css-tricks.com/almanac/properties/p/position/
+Height/Width:
+https://css-tricks.com/exploring-the-complexities-of-width-and-height-in-css/
+Using the right CSS units:
+https://www.youtube.com/watch?v=N5wpD9Ov_To
+Padding/Margin:
+https://css-tricks.com/almanac/properties/p/padding/
+https://css-tricks.com/almanac/properties/m/margin/
+https://css-tricks.com/forums/topic/padding-vs-margin/
+

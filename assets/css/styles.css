@@ -1,13 +1,53 @@
 /* ---------------------------------------------------- Nav Bar ---------------------------------------------------------------- */
 
-body {
+.nav-toggle {
 
-    padding-top: 10%;
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+            
+        .nav-toggle:checked ~ nav {
+
+            visibility: visible;
+            z-index: 10;
+        }
+
+        .nav-toggle-label img {
+
+            position: absolute;
+            height: 80px;
+            width: 80px;
+            margin: 1em 1em;
+            top: 0;
+            left: 0;
+            z-index: 10;
+        }
+
+        nav {
+
+            visibility: hidden;
+            
+        }
 
 }
 
+
+
+.nav-toggle-label img {
+
+    position: fixed;
+    height: 80px;
+    width: 80px;
+    margin: 0;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
 nav {
-    width: 100vw;
+
+    width: 100%;
     height: auto;
     position: fixed;
     background-color: #FFF9F6;
@@ -15,16 +55,23 @@ nav {
     top: 0;
     padding: 10px;
     z-index: 3;
+    border-bottom: 2px solid black;
+
 }
 
 .navbar {
+    
     display: flex;
+    width: 90%;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
-    flex: 1;
-    gap: 1rem;
+    gap: .5rem;
+    margin-top: 0;
+    margin-left: 5em;
+    margin-right: 1em;
+    padding-top: 1.5em;
+    padding-left: 0;
 
 }
 
@@ -32,7 +79,7 @@ nav {
 .navbar li {
 
     flex-grow: 1;
-    flex-shrink: 1;
+    flex-shrink: initial;
     list-style-type: none;
 
 }
@@ -51,13 +98,11 @@ nav {
 
 }
 
-
 .navbar a:hover {
 
     border-bottom: 1px solid black;
     border-top: 1px solid black;
 }
-
 
 .active {
 
@@ -70,6 +115,7 @@ nav {
 
 #homepage {
 
+    margin-top: 15%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -99,7 +145,6 @@ html, body {
 
     background-color: #FFF9F6;
     width: 100%;
-    height: 100%;
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
@@ -117,10 +162,6 @@ html, body {
     text-transform: uppercase;
     font-weight: bolder;
     margin-top: 20px;
-
-    /* grid position for 'Artist Title' */
-    grid-column: 1 / 5;
-    grid-row: 1 / 2;
 
 }
 
@@ -422,9 +463,6 @@ a {
 
 }
 
-@media screen and (max-width: 1200px) {
-    
-}
 
 /* ------------------------------------------------------- Gallery Page --------------------------------------------------------- */
 
