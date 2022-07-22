@@ -9,7 +9,9 @@ circle about images
 Trouble shooting
 13px margin in footer - unknown origin
 Using outlinesand borders for images
+Vertical bar overflow on the right hand side - https://stackoverflow.com/questions/4617872/white-space-showing-up-on-right-side-of-page-when-background-image-should-extend
 
+About images need to shrink with screen size shrinking.
 
 
 After Mid-point Call
