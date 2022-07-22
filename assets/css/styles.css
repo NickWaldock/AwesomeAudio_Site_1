@@ -788,3 +788,29 @@ a {
     width: 100%;
 
 }
+
+
+
+/* Terms And Conditions */
+
+#terms {
+
+    margin-left: 1.5rem;
+}
+
+#terms h2, h3 {
+
+    font-family: Montserrat, sans-serif;
+    
+
+}
+
+.bullet {
+
+    list-style-type: circle;
+}
+
+#terms ul, p {
+
+    font-family: forum, sans serif;
+}
