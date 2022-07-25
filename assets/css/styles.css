@@ -1,13 +1,14 @@
-/* ---------------------------------------------------- Nav Bar ---------------------------------------------------------------- */
+/* -------------------------------------------------------- Nav Bar ----------------------------------------------------------------- */
 
+/* For screens <900px */
 .nav-toggle {
 
     display: none;
 }
 
 @media screen and (max-width: 900px) {
-            
-    .nav-toggle:checked ~ nav ul {
+
+    .nav-toggle:checked~nav ul {
 
         visibility: visible;
         z-index: 10;
@@ -28,12 +29,11 @@
     nav ul {
 
         visibility: hidden;
-        
     }
 
 }
 
-
+/* For screens >900px */
 
 .nav-toggle-label img {
 
@@ -57,11 +57,10 @@ nav {
     padding: 10px;
     z-index: 3;
     border-bottom: 2px solid black;
-
 }
 
 .navbar {
-    
+
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -72,16 +71,13 @@ nav {
     margin-right: 1em;
     padding-top: 1.5em;
     padding-left: 0;
-
 }
-
 
 .navbar li {
 
     flex-grow: 1;
     flex-shrink: 1;
     list-style-type: none;
-
 }
 
 .navbar a {
@@ -95,7 +91,6 @@ nav {
     text-transform: uppercase;
     font-weight: bold;
     font-size: large;
-
 }
 
 .navbar a:hover {
@@ -108,10 +103,9 @@ nav {
 
     border-bottom: 1px solid black;
     border-top: 1px solid black;
-
 }
 
-/* ------------------------------------------------------- Logo ---------------------------------------------------------------- */
+/* ---------------------------------------------------------- Logo ------------------------------------------------------------------- */
 
 #homepage {
 
@@ -128,27 +122,26 @@ nav {
     font-size: xx-large;
     text-transform: uppercase;
     text-align: center;
-
 }
 
 #logo-small {
     border-radius: 50%;
     max-height: 100px;
     height: auto;
-
 }
 
 
 
-/* ------------------------------------------------------ Main Page Styling ----------------------------------------------------- */
+/* --------------------------------------------------------- Main Styling ------------------------------------------------------------ */
 
-html, body {
+html,
+body {
 
     background-color: #FFF9F6;
     width: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
+    overflow-x: hidden;
 }
 
 .section-title {
@@ -162,7 +155,6 @@ html, body {
     text-transform: uppercase;
     font-weight: bolder;
     margin-top: 20px;
-
 }
 
 h3 {
@@ -171,7 +163,7 @@ h3 {
     font-size: medium;
 }
 
-/* ------------------------------------------------------- About Us ----------------------------------------------------------- */
+/* ----------------------------------------------------------- About Us -------------------------------------------------------------- */
 #about-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20rem, 0.45fr));
@@ -179,7 +171,6 @@ h3 {
     justify-content: center;
     max-width: 90vw;
     margin: 1rem auto 3rem;
-
 }
 
 .card {
@@ -190,7 +181,6 @@ h3 {
     text-align: center;
     aspect-ratio: 1 / 1.1;
     margin-top: 1rem;
-
 }
 
 .card-img {
@@ -203,7 +193,6 @@ h3 {
     box-shadow: 0 0 0 4px black;
     aspect-ratio: 1 / 1;
     margin-top: 1rem;
-    
 }
 
 .card-content {
@@ -211,26 +200,14 @@ h3 {
     margin: 1rem;
     max-width: 100%;
     font-family: Forum, sans-serif;
-
 }
-
-/* 
-.card-title {
-
-}
-
-.card-text {
-
-}
- */
 
 .card-link {
 
     font-family: Montserrat, sans-serif;
-
 }
 
-/* ---------------------------------------------------------- Artists --------------------------------------------------------- */
+/* -------------------------------------------------------------- Artists ------------------------------------------------------------ */
 #artists {
 
     margin: 5px 1rem;
@@ -248,7 +225,6 @@ h3 {
     width: 500px;
     object-fit: cover;
     box-shadow: 0 .25rem 1rem rgb(0 0 0 / .4);
-
 }
 
 .artist-bio-center {
@@ -261,7 +237,6 @@ h3 {
     font-weight: bold;
     font-size: 100%;
     line-height: 30px;
-
 }
 
 .artist-bio h3 {
@@ -271,35 +246,30 @@ h3 {
     color: black;
     font-size: large;
     font-weight: bolder;
-
 }
 
 #artist1-img {
 
     grid-column: 1 / 2;
     grid-row: 2 / 3;
-
 }
 
 #artist1-text {
 
     grid-column: 2 / 5;
     grid-row: 2 / 3;
-
 }
 
 #artist2-img {
 
     grid-column: 4 / 5;
     grid-row: 3 / 4;
-
 }
 
 #artist2-text {
 
     grid-column: 1 / 4;
     grid-row: 3 / 4;
-
 }
 
 #artist3-img {
@@ -317,62 +287,60 @@ h3 {
 
 }
 
-/* For Mobiles */
-@media screen and (max-width: 800px) {
+/* For screen sizes <900px */
+@media screen and (max-width: 900px) {
 
 
     #artist1-img {
 
         grid-column: 2 / 4;
         grid-row: 1 / 2;
-    
+
     }
-    
+
     #artist1-text {
-    
+
         grid-column: 1 / 5;
         grid-row: 2 / 3;
-    
+
     }
-    
+
     #artist2-img {
-    
+
         grid-column: 2 / 4;
         grid-row: 3 / 4;
-    
+
     }
-    
+
     #artist2-text {
-    
+
         grid-column: 1 / 5;
         grid-row: 4 / 5;
-    
+
     }
-    
+
     #artist3-img {
-    
+
         grid-column: 2 / 4;
         grid-row: 5 / 6;
-    
+
     }
-    
+
     #artist3-text {
-    
+
         grid-column: 1 / 5;
         grid-row: 6 / 7;
-    
+
     }
 }
 
-/* ----------------------------------------------------------- Map ------------------------------------------------------------- */
-
+/* -------------------------------------------------------------- Map ---------------------------------------------------------------- */
 #map {
     margin-top: 20px;
 
 }
 
-/* --------------------------------------------------- Jump To Top Button ------------------------------------------------------- */
-
+/* ------------------------------------------------------ Jump To Top Button --------------------------------------------------------- */
 .jump-btn {
 
     border: 2px solid black;
@@ -397,8 +365,7 @@ h3 {
 
 }
 
-/* --------------------------------------------------------- Footer ------------------------------------------------------------- */
-
+/* ------------------------------------------------------------ Footer --------------------------------------------------------------- */
 .footer {
 
     width: 100vw;
@@ -418,6 +385,7 @@ h3 {
 
 }
 
+/* Social Media Icon Links */
 .socials {
 
     max-width: 100%;
@@ -456,7 +424,7 @@ a {
 
 }
 
-/* ------------------------------------------------------- Gallery Page --------------------------------------------------------- */
+/* --------------------------------------------------------- Gallery Page ----------------------------------------------------------- */
 .gallery-title {
 
     font-family: Montserrat, sans-serif;
@@ -477,14 +445,16 @@ a {
     text-align: center;
     color: black;
     font-size: 200%;
-    
+
 }
 
 .gallery-image {
-    
+
     max-width: 100%;
     height: auto;
     background-color: #ed7444;
+    border-radius: 2.5%;
+    border: 2px solid black;
     min-width: 100%;
     min-height: 100%;
 }
@@ -498,14 +468,6 @@ a {
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 50px;
     margin-bottom: 50px;
-}
-
-.gallery-image {
-
-    max-width: 100%;
-    height: auto;
-    border-radius: 2.5%;
-    border: 2px solid black;
 }
 
 #gallery-img3 {
@@ -525,6 +487,7 @@ a {
 
 }
 
+/* Gallery Contact Button */
 #gallery-contact {
 
     display: flex;
@@ -561,7 +524,7 @@ a {
 
 }
 
-/* ------------------------------------------------------- Equipment ------------------------------------------------------------ */
+/* ---------------------------------------------------------- Equipment ------------------------------------------------------------- */
 #equipment-title {
 
     margin-top: 8%;
@@ -588,7 +551,7 @@ a {
     position: relative;
     margin: 0;
     padding: 0;
-    
+
 }
 
 .equipment-img img {
@@ -684,8 +647,7 @@ a {
 
 }
 
-/* ----------------------------------------------------- Contact Page ---------------------------------------------------------- */
-
+/* --------------------------------------------------------- Contact Page ----------------------------------------------------------- */
 #contact-container {
 
     display: flex;
@@ -694,7 +656,6 @@ a {
     border-radius: 8px;
     text-align: center;
     align-items: center;
-
 
 }
 
@@ -708,6 +669,7 @@ a {
     text-transform: uppercase;
     font-weight: normal;
     margin-top: 20px;
+
 }
 
 .contact-input {
@@ -734,10 +696,7 @@ a {
 
 }
 
-
-
-/* ------------------------------------------------- Thank You Page ------------------------------------------------------------ */
-
+/* ------------------------------------------------------ Thank You Page ------------------------------------------------------------ */
 #thankyou {
 
     display: flex;
@@ -771,7 +730,6 @@ a {
 
 }
 
-
 #footer-contact {
 
     position: absolute;
@@ -780,20 +738,17 @@ a {
 
 }
 
-
-
-/* ---------------------------------------------- Terms And Conditions ---------------------------------------------------------- */
-
+/* ------------------------------------------------- Terms And Conditions ----------------------------------------------------------- */
 #terms {
 
     margin-left: 1.5rem;
     padding-top: 5em;
 }
 
-#terms h2, h3 {
+#terms h2,
+h3 {
 
     font-family: Montserrat, sans-serif;
-    
 
 }
 
@@ -802,8 +757,8 @@ a {
     list-style-type: circle;
 }
 
-#terms ul, p {
+#terms ul,
+p {
 
     font-family: forum, sans serif;
 }
-
