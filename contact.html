@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,21 +11,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Forum&family=Montserrat:wght@100&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css">
-    <title>Contact Us</title>
+    <title>Awesome Audio | Contact Us</title>
 </head>
 
-
-
-<!--------------------------------------------------------------------------- Nav Bar ----------------------------------------------------------------------------->
+<!-------------------------------------------------------- Nav Bar ------------------------------------------------------------------->
 <header>
     <input type="checkbox" class="nav-toggle" id="nav-toggle">
     <nav>
         <ul class="navbar">
             <li>
-                <a href="index.html#about" class="active" id="about-grid">About</a>
+                <a href="index.html#about">About</a>
             </li>
             <li>
-                <a href="gallery.html" id="gallery-grid">Gallery</a>
+                <a href="gallery.html">Gallery</a>
             </li>
             <li>
                 <a href="gallery.html#equipment">Equipment</a>
@@ -38,7 +35,7 @@
                 <a href="#findus">Find Us</a>
             </li>
             <li>
-                <a href="contact.html">Contact Us</a>
+                <a href="contact.html" class="active">Contact Us</a>
             </li>
         </ul>
     </nav>
@@ -47,76 +44,71 @@
     </label>
 </header>
 
-    <section>
-        <form action="thankyou.html" id="contact" method="get">
-            <div id="contact-container">
-                <h2 class="section-title">Contact Us</h2>
-
-                <label for="name" class="contact-label">
-                    Name
-                </label>
-                <input name="name" placeholder="Name" type="text" class="contact-input" required>
-
-                <label for="email" class="contact-label">
-                    Email
-                </label>
-                <input name="email" placeholder="Email" type="email" class="contact-input" required>
-
-                <label for="message" class="contact-label">
-                    Message
-                </label>
-                <textarea name="message" placeholder="Write your message here..." type="text" id="contact-msg" required></textarea>
-
-                <button type="i" action="_blank" href="thankyou.html">
-                    <i class="fa-solid fa-paper-plane"></i>
-                </button>
-            </div>
-        </form>
-    </section>
-
-    <!-- Footer -------------------------------------------------------------------------------------------------------------------------------->
-    <footer>
-        <div class="footer">
-            <div>
-                <ul class="socials">
-                    <li>
-                        <a href="https://www.facebook.com" target="_blank">
-                            <i class="fa-brands fa-facebook-square"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com" target="_blank">
-                            <i class="fa-brands fa-instagram-square"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a><img src="assets/images/site-images/aa-logo-notext.webp" id="logo-small"
-                                alt="Awesome Audio Small Logo"></a>
-                    </li>
-                    <li>
-                        <a href="https://www.youtube.com" target="_blank">
-                            <i class="fa-brands fa-youtube-square"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.twitter.com" target="_blank">
-                            <i class="fa-brands fa-twitter-square"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="footer-text">
-                <a href="contact.html">Contact Us</a>
-                <br>
-                <a href="terms.html">Terms and Conditions</a>
-                <br>
-                <p>Copyright © 2022 NJW. All rights reserved.</p>
-            </div>
+<section>
+    <form action="thankyou.html" id="contact" method="get">
+        <div id="contact-container">
+            <h2 class="section-title">Contact Us</h2>
+            <label for="name" class="contact-label">
+                Name
+            </label>
+            <input name="name" placeholder="Name" type="text" class="contact-input" required>
+            <label for="email" class="contact-label">
+                Email
+            </label>
+            <input name="email" placeholder="Email" type="email" class="contact-input" required>
+            <label for="message" class="contact-label">
+                Message
+            </label>
+            <textarea name="message" placeholder="Write your message here..." type="text" id="contact-msg" required></textarea>
+            <button type="i" action="_blank" href="thankyou.html">
+                <i class="fa-solid fa-paper-plane"></i>
+            </button>
         </div>
-    </footer>
+    </form>
+</section>
 
-    <!-- Font Awesome Script ------------------------------------------------------------------------------------------------->
-    <script src="https://kit.fontawesome.com/57b32cf6b6.js" crossorigin="anonymous"></script>
+<!----------------------------------------------------------- Footer ------------------------------------------------------------------>
+<footer>
+    <div class="footer">
+        <div>
+            <ul class="socials">
+                <li>
+                    <a href="https://www.facebook.com" target="_blank">
+                        <i class="fa-brands fa-facebook-square"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com" target="_blank">
+                        <i class="fa-brands fa-instagram-square"></i>
+                    </a>
+                </li>
+                <li>
+                    <a><img src="assets/images/site-images/aa-logo-notext.webp" id="logo-small"
+                            alt="Awesome Audio Small Logo"></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com" target="_blank">
+                        <i class="fa-brands fa-youtube-square"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.twitter.com" target="_blank">
+                        <i class="fa-brands fa-twitter-square"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-text">
+            <a href="contact.html">Contact Us</a>
+            <br>
+            <a href="terms.html">Terms and Conditions</a>
+            <br>
+            <p>Copyright © 2022 NJW. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<!------------------------------------------------- Font Awesome Script -------------------------------------------------------------->
+<script src="https://kit.fontawesome.com/57b32cf6b6.js" crossorigin="anonymous"></script>
 </body>
-
 </html>
