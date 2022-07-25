@@ -4,6 +4,7 @@
 .nav-toggle {
 
     display: none;
+
 }
 
 @media screen and (max-width: 900px) {
@@ -12,6 +13,7 @@
 
         visibility: visible;
         z-index: 10;
+
     }
 
     .nav-toggle-label img {
@@ -24,11 +26,13 @@
         top: 0;
         left: 0;
         z-index: 10;
+
     }
 
     nav ul {
 
         visibility: hidden;
+
     }
 
 }
@@ -44,6 +48,7 @@
     top: 0;
     left: 0;
     z-index: 10;
+
 }
 
 nav {
@@ -57,6 +62,7 @@ nav {
     padding: 10px;
     z-index: 3;
     border-bottom: 2px solid black;
+
 }
 
 .navbar {
@@ -71,6 +77,7 @@ nav {
     margin-right: 1em;
     padding-top: 1.5em;
     padding-left: 0;
+
 }
 
 .navbar li {
@@ -78,6 +85,7 @@ nav {
     flex-grow: 1;
     flex-shrink: 1;
     list-style-type: none;
+
 }
 
 .navbar a {
@@ -91,18 +99,21 @@ nav {
     text-transform: uppercase;
     font-weight: bold;
     font-size: large;
+
 }
 
 .navbar a:hover {
 
     border-bottom: 1px solid black;
     border-top: 1px solid black;
+
 }
 
 .active {
 
     border-bottom: 1px solid black;
     border-top: 1px solid black;
+
 }
 
 /* ---------------------------------------------------------- Logo ------------------------------------------------------------------- */
@@ -114,6 +125,7 @@ nav {
     flex-direction: column;
     align-items: center;
     padding-bottom: 10%;
+
 }
 
 #homepage h3 {
@@ -122,18 +134,17 @@ nav {
     font-size: xx-large;
     text-transform: uppercase;
     text-align: center;
+
 }
 
 #logo-small {
     border-radius: 50%;
     max-height: 100px;
     height: auto;
+
 }
 
-
-
-/* --------------------------------------------------------- Main Styling ------------------------------------------------------------ */
-
+/* --------------------------------------------------------- Main Styling ----------------------------------------------------------- */
 html,
 body {
 
@@ -142,6 +153,7 @@ body {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+
 }
 
 .section-title {
@@ -155,12 +167,14 @@ body {
     text-transform: uppercase;
     font-weight: bolder;
     margin-top: 20px;
+
 }
 
 h3 {
 
     font-family: Montserrat, sans-serif;
     font-size: medium;
+
 }
 
 /* ----------------------------------------------------------- About Us -------------------------------------------------------------- */
@@ -171,6 +185,7 @@ h3 {
     justify-content: center;
     max-width: 90vw;
     margin: 1rem auto 3rem;
+
 }
 
 .card {
@@ -181,6 +196,7 @@ h3 {
     text-align: center;
     aspect-ratio: 1 / 1.1;
     margin-top: 1rem;
+
 }
 
 .card-img {
@@ -193,6 +209,7 @@ h3 {
     box-shadow: 0 0 0 4px black;
     aspect-ratio: 1 / 1;
     margin-top: 1rem;
+
 }
 
 .card-content {
@@ -200,11 +217,13 @@ h3 {
     margin: 1rem;
     max-width: 100%;
     font-family: Forum, sans-serif;
+
 }
 
 .card-link {
 
     font-family: Montserrat, sans-serif;
+
 }
 
 /* -------------------------------------------------------------- Artists ------------------------------------------------------------ */
@@ -214,6 +233,7 @@ h3 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
+
 }
 
 .artist-img {
@@ -225,6 +245,7 @@ h3 {
     width: 500px;
     object-fit: cover;
     box-shadow: 0 .25rem 1rem rgb(0 0 0 / .4);
+
 }
 
 .artist-bio-center {
@@ -237,6 +258,7 @@ h3 {
     font-weight: bold;
     font-size: 100%;
     line-height: 30px;
+
 }
 
 .artist-bio h3 {
@@ -246,30 +268,35 @@ h3 {
     color: black;
     font-size: large;
     font-weight: bolder;
+
 }
 
 #artist1-img {
 
     grid-column: 1 / 2;
     grid-row: 2 / 3;
+
 }
 
 #artist1-text {
 
     grid-column: 2 / 5;
     grid-row: 2 / 3;
+
 }
 
 #artist2-img {
 
     grid-column: 4 / 5;
     grid-row: 3 / 4;
+
 }
 
 #artist2-text {
 
     grid-column: 1 / 4;
     grid-row: 3 / 4;
+
 }
 
 #artist3-img {
@@ -332,10 +359,12 @@ h3 {
         grid-row: 6 / 7;
 
     }
+
 }
 
 /* -------------------------------------------------------------- Map ---------------------------------------------------------------- */
 #map {
+
     margin-top: 20px;
 
 }
@@ -349,6 +378,7 @@ h3 {
     height: auto;
     margin: 20px auto;
     text-align: center;
+
 }
 
 .jump-btn i {
@@ -397,6 +427,7 @@ h3 {
     padding-inline-start: 0;
     padding: 0;
     margin: 0;
+
 }
 
 .socials li {
@@ -420,6 +451,7 @@ a {
 
 #footer-text a:visited,
 a {
+
     color: black;
 
 }
@@ -457,6 +489,7 @@ a {
     border: 2px solid black;
     min-width: 100%;
     min-height: 100%;
+
 }
 
 #gallery {
@@ -468,6 +501,7 @@ a {
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 50px;
     margin-bottom: 50px;
+
 }
 
 #gallery-img3 {
@@ -492,6 +526,7 @@ a {
 
     display: flex;
     justify-content: center;
+
 }
 
 #gallery-contact>div {
@@ -505,6 +540,7 @@ a {
     font-size: 150%;
     font-weight: bolder;
     text-align: center;
+
 }
 
 #gallery-contact>a {
@@ -528,6 +564,7 @@ a {
 #equipment-title {
 
     margin-top: 8%;
+
 }
 
 #equipment {
@@ -601,7 +638,6 @@ a {
 
     grid-column: 1 / 2;
     grid-row: 2 / 3;
-
 
 }
 
@@ -706,6 +742,7 @@ a {
     justify-content: space-between;
     border: none;
     margin-top: 5rem;
+
 }
 
 .contact-text p {
@@ -743,6 +780,7 @@ a {
 
     margin-left: 1.5rem;
     padding-top: 5em;
+
 }
 
 #terms h2,
@@ -755,10 +793,12 @@ h3 {
 .bullet {
 
     list-style-type: circle;
+
 }
 
 #terms ul,
 p {
 
     font-family: forum, sans serif;
+
 }
