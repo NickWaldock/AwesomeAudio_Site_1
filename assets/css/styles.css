@@ -746,6 +746,7 @@ a {
     align-items: center;
     justify-content: space-between;
     border: none;
+    margin-top: 5rem;
 }
 
 .contact-text p {
