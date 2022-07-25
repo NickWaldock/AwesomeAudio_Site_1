@@ -151,7 +151,6 @@ html, body {
     overflow-x: hidden; 
 }
 
-
 .section-title {
 
     font-family: Montserrat, sans-serif;
@@ -172,9 +171,7 @@ h3 {
     font-size: medium;
 }
 
-
 /* ------------------------------------------------------- About Us ----------------------------------------------------------- */
-
 #about-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20rem, 0.45fr));
@@ -233,9 +230,7 @@ h3 {
 
 }
 
-
 /* ---------------------------------------------------------- Artists --------------------------------------------------------- */
-
 #artists {
 
     margin: 5px 1rem;
@@ -333,7 +328,6 @@ h3 {
     
     }
     
-    
     #artist1-text {
     
         grid-column: 1 / 5;
@@ -348,7 +342,6 @@ h3 {
     
     }
     
-    
     #artist2-text {
     
         grid-column: 1 / 5;
@@ -362,7 +355,6 @@ h3 {
         grid-row: 5 / 6;
     
     }
-
     
     #artist3-text {
     
@@ -464,9 +456,7 @@ a {
 
 }
 
-
 /* ------------------------------------------------------- Gallery Page --------------------------------------------------------- */
-
 .gallery-title {
 
     font-family: Montserrat, sans-serif;
@@ -529,13 +519,11 @@ a {
 
 }
 
-
 #gallery-img10 {
     grid-row: 3 / 5;
     grid-column: 1 / 2;
 
 }
-
 
 #gallery-contact {
 
@@ -574,7 +562,6 @@ a {
 }
 
 /* ------------------------------------------------------- Equipment ------------------------------------------------------------ */
-
 #equipment-title {
 
     margin-top: 8%;
