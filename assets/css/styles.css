@@ -571,7 +571,6 @@ a {
 
     display: grid;
     place-items: center;
-    align-items: auto;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 0.5fr);
     z-index: -1;
