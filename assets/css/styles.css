@@ -642,7 +642,7 @@ a {
 
     grid-column: 1 / 2;
     grid-row: 1 / 2;
-    background-image: url("/assets/images/equipment-images/microphone1.webp");
+    background-image: url("assets/images/equipment-images/microphone1.webp");
     background-position-y: 35%;
 
 }
@@ -658,7 +658,7 @@ a {
 
     grid-column: 2 / 3;
     grid-row: 1 / 2;
-    background-image: url("/assets/images/equipment-images/instruments1.webp");
+    background-image: url("assets/images/equipment-images/instruments1.webp");
     background-position-y: 90%;
 }
 
@@ -672,7 +672,7 @@ a {
 
     grid-column: 1 / 2;
     grid-row: 3 / 4;
-    background-image: url("/assets/images/equipment-images/hardware1.webp");
+    background-image: url("assets/images/equipment-images/hardware1.webp");
 
 }
 
@@ -686,7 +686,7 @@ a {
 
     grid-column: 2 / 3;
     grid-row: 3 / 4;
-    background-image: url("/assets/images/equipment-images/software1.webp");
+    background-image: url("assets/images/equipment-images/software1.webp");
 }
 
 #daw-text {
