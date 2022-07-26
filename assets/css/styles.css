@@ -462,12 +462,11 @@ a {
     font-family: Montserrat, sans-serif;
     text-align: center;
     font-size: xx-large;
-    border-top: 2px solid black;
     border-bottom: 2px solid black;
     color: black;
     text-transform: uppercase;
     font-weight: bolder;
-    margin: 0;
+    margin-top: 9rem;
 
 }
 
@@ -476,7 +475,8 @@ a {
     font-family: Montserrat, sans-serif;
     text-align: center;
     color: black;
-    font-size: 200%;
+    font-size: 150%;
+    margin: 0;
 
 }
 
@@ -495,12 +495,10 @@ a {
 #gallery {
 
     display: grid;
-    width: 100%;
-    height: auto;
-    gap: 1.5rem;
+    width: auto;
+    gap: 1rem;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 7px 7px 50px 5px;
 
 }
 
@@ -561,26 +559,36 @@ a {
 }
 
 /* ---------------------------------------------------------- Equipment ------------------------------------------------------------- */
+
+
 #equipment-title {
 
-    margin-top: 8%;
+    margin: 0px 0px 20px 0px;
+    border-top: 2px solid black;
 
+}
+
+#equipment-title h3 {
+
+    margin: 10px;
 }
 
 #equipment {
 
     display: grid;
     place-items: center;
+    align-items: flex-start;
+    gap: 1rem;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, 0.5fr);
+    grid-template-rows: repeat(4, 0.3fr);
     z-index: -1;
 
 }
 
 .equipment-img {
 
-    width: 50%;
-    height: 50%;
+    width: 75%;
+    height: 75%;
     background-color: #ed7444;
     background-size: cover;
     border: 2px solid black;
@@ -615,6 +623,8 @@ a {
 .equipment-text ul {
 
     list-style-type: none;
+    padding: 0;
+    
 }
 
 .equipment-text h4 {
@@ -623,6 +633,7 @@ a {
     font-size: xx-large;
     margin: 0;
     padding: 0;
+
 }
 
 #mics-img {
@@ -682,6 +693,75 @@ a {
     grid-row: 4 / 5;
 
 }
+
+@media screen and (max-width: 900px) {
+    
+    #equipment {
+
+        display: grid;
+        grid-template-columns: 0.4fr;
+        grid-template-rows: 0.3fr;
+        justify-content: center;
+    }
+
+
+        #mics-img {
+
+            grid-column: 1 / 2;
+            grid-row: 1 / 2;
+            aspect-ratio: 1 / 1;
+        
+        }
+        
+        #mics-text {
+        
+            grid-column: 1 / 2;
+            grid-row: 2 / 3;
+        
+        }
+        
+        #instruments-img {
+        
+            grid-column: 1 / 2;
+            grid-row: 3 / 4;
+            aspect-ratio: 1 / 1;
+        }
+        
+        #instruments-text {
+        
+            grid-column: 1 / 2;
+            grid-row: 4 / 5;
+        }
+        
+        #hardware-img {
+        
+            grid-column: 1 / 2;
+            grid-row: 5 / 6;
+            aspect-ratio: 1 / 1;
+        
+        }
+        
+        #hardware-text {
+        
+            grid-column: 1 / 2;
+            grid-row: 6 / 7;
+        }
+        
+        #daw-img {
+        
+            grid-column: 1 / 2;
+            grid-row: 7 / 8;
+            aspect-ratio: 1 / 1;
+        
+        }
+        
+        #daw-text {
+        
+            grid-column: 1 / 2;
+            grid-row: 8 / 9;
+    }
+}
+
 
 /* --------------------------------------------------------- Contact Page ----------------------------------------------------------- */
 #contact-container {

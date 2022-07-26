@@ -45,6 +45,8 @@ As a frequent visitor, I want to:
 ### Inspiration for Design
 Design ideas were inspired from a number of audio recording websites, see[references](references.md). Key design ideas and important information to include was inspired by and used with permission from my good friends at [Masterlink Productions](https://www.masterlinkproductions.co.uk). Particularly the, about section, equipment list, gallery images, and terms and conditions.
 
+Note: Artist information is fictional
+
 ### Logo and Typography
 The Awesome audio logo was created in [Canva](https://www.canva.com/) and uses a soft orange template image with a slightly off-white background. The font Forum makes up the main title and Monserrat for the tag line. These themes are expanded throughout the site for consistency with sans-serif as a back up font. 
 

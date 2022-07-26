@@ -136,3 +136,8 @@ https://css-tricks.com/almanac/properties/p/padding/
 https://css-tricks.com/almanac/properties/m/margin/
 https://css-tricks.com/forums/topic/padding-vs-margin/
 
+
+
+Site inspiration 
+http://www.masterlinkproductions.co.uk
+http://oscillaterecordings.co.uk/gallery
