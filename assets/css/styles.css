@@ -366,6 +366,10 @@ h3 {
 #map {
 
     margin-top: 20px;
+    width: 100vw;
+    height: 450px; 
+    border: 2px solid black;
+    border-radius: 8px;
 
 }
 
