@@ -439,25 +439,34 @@ h3 {
     list-style-type: none;
     display: inline;
     text-align: center;
-    color: #ed7444;
+    color: #e88963;
     text-shadow: 1px 1px 1px black;
-    font-size: 4.5em;
+    font-size: 3.5em;
 
 }
 
 .socials a:visited,
 a {
 
-    color: #ed7444;
+    color: #e88963;
     text-decoration: none;
 
 }
 
-#footer-text a:visited,
+.footer-text a:visited,
 a {
 
     color: black;
 
+}
+
+@media screen and (max-width: 660px) {
+
+    body {
+        
+        margin-top: 3em;
+
+    }
 }
 
 /* --------------------------------------------------------- Gallery Page ----------------------------------------------------------- */
@@ -501,7 +510,6 @@ a {
 
     display: grid;
     width: auto;
-    
     gap: 1rem;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 7px 7px 50px 5px;
