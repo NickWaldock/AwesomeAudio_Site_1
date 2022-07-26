@@ -620,7 +620,7 @@ a {
     text-align: center;
     font-family: Forum, sans-serif;
     font-size: larger;
-    color: black;
+    color: rgb(44, 42, 42);
     line-height: 30px;
     text-transform: uppercase;
 
@@ -630,6 +630,13 @@ a {
 
     list-style-type: none;
     padding: 0;
+    
+}
+
+.list-padding :nth-child(4),
+.list-padding :nth-child(6) {
+
+    padding-bottom: 2em;
     
 }
 
