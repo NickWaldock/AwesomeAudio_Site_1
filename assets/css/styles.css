@@ -448,7 +448,7 @@ h3 {
 
 .socials a:visited {
 
-    color: #e88963;
+    color: #e88963 !important;
     text-decoration: none;
 
 }
