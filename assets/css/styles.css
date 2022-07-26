@@ -445,8 +445,7 @@ h3 {
 
 }
 
-.socials a:visited,
-a {
+.socials a:visited {
 
     color: #e88963;
     text-decoration: none;
