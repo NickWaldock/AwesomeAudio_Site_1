@@ -440,7 +440,7 @@ h3 {
     list-style-type: none;
     display: inline;
     text-align: center;
-    color: #e88963 !important;
+    color: #e88963;
     text-shadow: 1px 1px 1px black;
     font-size: 3.5em;
 
