@@ -40,7 +40,7 @@
         </ul>
     </nav>
     <label for="nav-toggle" class="nav-toggle-label">
-        <img src="assets/images/site-images/aa-logo-notext.webp">
+        <img src="assets/images/site-images/aa-logo-notext.webp" alt="Awesome Audio Small Logo">
     </label>
 </header>
 
@@ -53,17 +53,19 @@
             <label for="name" class="contact-label">
                 Name
             </label>
-            <input name="name" placeholder="Name" type="text" class="contact-input" required>
+            <input id="name" placeholder="Name" type="text" class="contact-input" required>
             <label for="email" class="contact-label">
                 Email
             </label>
-            <input name="email" placeholder="Email" type="email" class="contact-input" required>
+            <input id="email" placeholder="Email" type="email" class="contact-input" required>
             <label for="message" class="contact-label">
                 Message
             </label>
-            <textarea name="message" placeholder="Write your message here..." type="text" id="contact-msg" required></textarea>
-            <button type="i" action="_blank" href="thankyou.html">
-                <i class="fa-solid fa-paper-plane"></i>
+            <textarea id="message" placeholder="Write your message here..." id="contact-msg" required></textarea>
+            <button>
+                <a href="thankyou.html">
+                    <i class="fa-solid fa-paper-plane"></i>
+                </a>
             </button>
         </div>
     </form>
@@ -85,7 +87,7 @@
                     </a>
                 </li>
                 <li>
-                    <img src="assets/images/site-images/aa-logo-notext.webp" alt="Awesome Audio Logo" id="logo-small"
+                    <img src="assets/images/site-images/aa-logo-notext.webp" id="logo-small"
                         alt="Awesome Audio Small Logo">
                 </li>
                 <li>
@@ -103,7 +105,7 @@
         <div class="footer-text">
             <a href="contact.html" aria-label="Navigate to the contact page">Contact Us</a>
             <br>
-            <a href="terms.html"aria-label="View our terms and conditions">Terms and Conditions</a>
+            <a href="terms.html" aria-label="View our terms and conditions">Terms and Conditions</a>
             <br>
             <p>Copyright © 2022 NJW. All rights reserved.</p>
         </div>

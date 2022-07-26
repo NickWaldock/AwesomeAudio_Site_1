@@ -815,11 +815,24 @@ a {
 
 }
 
+#contact-container textarea {
+
+    width: 50%;
+    height: 20em;
+}
+
+
 #contact-container button {
+
+    border: none;
+    background-color: #FFF9F6;
+    
+}
+
+#contact-container a {
 
     color: #ed7444;
     border: none;
-    background-color: #FFF9F6;
     font-size: 300%;
     margin-bottom: 30px;
 
