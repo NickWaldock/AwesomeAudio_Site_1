@@ -102,9 +102,17 @@ Additional technologies include:
 The site's code has been tested on W3C html validator and W3C CSS validator
 The site was mainly tested during development on Google Chrome utilising the browsers built-in Developer Tools, and has also been tested on Safari and Firefox browsers.
 
+## Bugs and Troubleshooting
+
+## Validation
+
+## Future Development
+
 ## Deployment
 
 The site can be accessed at: https://nickwaldock.github.io/AwesomeAudio_Site_1/
+
+
 
 ## Credits, References & Thanks
 
