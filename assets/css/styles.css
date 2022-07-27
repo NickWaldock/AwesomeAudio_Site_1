@@ -97,23 +97,26 @@
 
 #hamburger-menu {
 
+    display: none;
     position: fixed;
     top: 20px;
     left: 20px;
     width: 45px;
     height: 45px;
-    display: none;
     padding: 0px;
     margin: 0px;
+    border: 6px solid #FFF9F6;
+    box-shadow: 0 .25rem 1rem rgb(0 0 0 / .2);
+    border-radius: 10%;
     font-family: Montserrat, Sans-serif;
     text-transform: uppercase;
     background: linear-gradient(
         to bottom, 
-        #e88963, #e88963 20%, 
+        #e49372, #e49372 20%, 
         #FFF9F6 20%, #FFF9F6 40%, 
-        #e88963 40%, #e88963 60%, 
+        #e49372 40%, #e49372 60%, 
         #FFF9F6 60%, #FFF9F6 80%, 
-        #e88963 80%, #e88963 100%);
+        #e49372 80%, #e49372 100%);
 
 }
 
