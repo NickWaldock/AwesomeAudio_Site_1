@@ -382,30 +382,32 @@ h3 {
     height: auto;
     margin: 20px auto;
     text-align: center;
+    color: black;
 
 }
 
 .jump-btn i {
 
     font-size: 200%;
-    color: #ed7444;
+    color: #e88963;
 
 }
 
 .jump-btn a {
 
     font-family: Montserrat, sans serif;
+    color: black !important;
     font-size: larger;
     text-decoration: none;
 
 }
+
 
 /* ------------------------------------------------------------ Footer --------------------------------------------------------------- */
 .footer {
 
     width: 100vw;
     text-align: center;
-    color: black;
     position: relative;
     font-family: Montserrat, sans-serif;
     text-align: center;
@@ -446,7 +448,7 @@ h3 {
 
 }
 
-.socials a:visited {
+.socials a:visited, a {
 
     color: #e88963 !important;
     text-decoration: none;
@@ -455,7 +457,7 @@ h3 {
 
 .footer-text a {
 
-    color: black;
+    color: black !important;
     text-decoration: none;
 
 }

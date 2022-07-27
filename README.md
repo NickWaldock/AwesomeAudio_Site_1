@@ -113,6 +113,8 @@ The site was mainly tested during development on Google Chrome utilising the bro
 The site can be accessed at: https://nickwaldock.github.io/AwesomeAudio_Site_1/
 
 
+settings pages > main branch save
+
 
 ## Credits, References & Thanks
 
