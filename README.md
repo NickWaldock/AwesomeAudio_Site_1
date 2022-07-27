@@ -8,6 +8,9 @@ Awesome Audio is fictional music recording studio inspired from the dreams of a 
 
 Thank you for taking the time to browse this site which represents my first forray into the world of coding! 
 
+![](vscode-remote://nickwaldock-awesomeaudi-k036j9j144e.ws-eu54.gitpod.io/workspace/AwesomeAudio_Site_1/assets/images/README%20Images/am-i-responsive.png)
+
+
 ## Overview & Aims
 
 As a high-end audio recording studio, Awesome Audio offers musicians a range of recording techniques blending the convenience of digital recording with the often sought-out warmth of vintage analogue equipment. Musicians and artists today are often caught between the decision of cost and convenience vs quality when it comes to producing a record. City studios are often expensive, small, and usually specialise in a certain recording genre. While this can be useful for smaller projects, for larger projects it can be more cost and creatively effective to retreat to a countryside studio where artists can explore multiple recording approaches free from the distractions of the fast-paced city recording dynamic.
@@ -102,46 +105,31 @@ Additional technologies include:
 The site's code has been tested on W3C html validator and W3C CSS validator
 The site was mainly tested during development on Google Chrome utilising the browser's built-in DevTools, and has also been tested on Safari and Firefox browsers with coresponding use of developer tools.
 
-## Bugs and Troubleshooting
+## Bugs, Troubleshooting & Design Changes
 
-## Final Validation
+Some of the design of the site doesn't fully reflect the initial wireframe designs. As this is my first attempt at creating my own site there were a number of moments of redesign during deployment due to my fledgling understanding of good design aethestics. 
 
-Note: The same single error can be see on each html page validation. This has been deliberately left in order to maintain functionality of the burger menu. If the error is resolved the menu fails to function as intended. This piece of code is the only instance in the project that was 'borrowed' and adapted for my own style purposes. The original code can be found[here](https://alvarotrigo.com/blog/hamburger-menu-css-responsive/).
+The following are the main changes in design
+1. The 'About Us' section 
+![](vscode-remote://nickwaldock-awesomeaudi-k036j9j144e.ws-eu54.gitpod.io/workspace/AwesomeAudio_Site_1/assets/images/README%20Images/about-us-wireframe.png)
 
--[HTML Validation Results index.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fnickwaldock.github.io%2FAwesomeAudio_Site_1%2Findex.html)
+The original wireframe had this section arranged in 6 seperate elements with headings in-between and links indented with the text. This proved to be difficult to effectively achieve in development and led me to learning about Grid and Flex notebly from this [Kevil Powell video](https://www.youtube.com/watch?v=sKFW3wek21Q) where Kevin arranges his information in the form of 'cards'. I opted to adapt my design to this for ease of styling and eventual responsiveness.
 
--[HTML Validation Results gallery.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fnickwaldock.github.io%2FAwesomeAudio_Site_1%2Fgallery.html)
+![](vscode-remote://nickwaldock-awesomeaudi-k036j9j144e.ws-eu54.gitpod.io/workspace/AwesomeAudio_Site_1/assets/images/README%20Images/about-us-site.png)
 
--[HTML Validation Results contact.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fnickwaldock.github.io%2FAwesomeAudio_Site_1%2Fcontact.html)
+2. The 'Equipment' Section
+![](vscode-remote://nickwaldock-awesomeaudi-k036j9j144e.ws-eu54.gitpod.io/workspace/AwesomeAudio_Site_1/assets/images/README%20Images/equipment-wireframe.png)![](vscode-remote://nickwaldock-awesomeaudi-k036j9j144e.ws-eu54.gitpod.io/workspace/AwesomeAudio_Site_1/assets/images/README%20Images/equipment-phone-wireframe.png)
 
--[HTML Validation Results terms.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fnickwaldock.github.io%2FAwesomeAudio_Site_1%2Fterms.html)
+In this original design I envisaged text information and links all within an relating image. This again became difficult due to the qualtity of content information I was aiming to convey. The design quickly became unfeasable, and in a desire to simplify the design and layout I once again turned to grid and flex to facilitate this. 
 
--[HTML Validation Results thankyou.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fnickwaldock.github.io%2FAwesomeAudio_Site_1%2Fthankyou.html)
+![](vscode-remote://nickwaldock-awesomeaudi-k036j9j144e.ws-eu54.gitpod.io/workspace/AwesomeAudio_Site_1/assets/images/README%20Images/equipment-site.png)![](vscode-remote://nickwaldock-awesomeaudi-k036j9j144e.ws-eu54.gitpod.io/workspace/AwesomeAudio_Site_1/assets/images/README%20Images/equipment-phone-site.png)
 
--[CSS Validation Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fnickwaldock.github.io%2FAwesomeAudio_Site_1%2Fassets%2Fcss%2Fstyles.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+3. The 'Recent Artists' Section
+![](vscode-remote://nickwaldock-awesomeaudi-k036j9j144e.ws-eu54.gitpod.io/workspace/AwesomeAudio_Site_1/assets/images/README%20Images/artists-phone-wireframe.png)
 
-## Future Development
+On reflection of the original wireframe this design unlikely to be effective. The design is quite different to the full-width design and could make the aesthetic incongruent between devices. Again, grid was instead used to re-arrange the images and text in a single column for smaller screens.
 
-## Deployment
-
-### GitHub
-This project was deloyed to GitHub Pages with the following steps:
-1. Log in to GitHub (create an account if necessary)
-2. Locate the [GitHub Respository](https://github.com/NickWaldock/AwesomeAudio_Site_1)
-3. On the repository page, find the 'Settings' icon anc click on it
-4. In the Settings page, look for and click the 'Pages' menu item on the left hand side (under section titled 'Code and automation', you may need to scroll down slightly)
-5. In the 'Pages' page, under 'Source', select 'Branch:main', then '/root' and click save
-6. After a few minutes, the site will be published
-
-
-
-The site can be accessed at: https://nickwaldock.github.io/AwesomeAudio_Site_1/
-
-
-settings pages > main branch save
-
-
-## Credits, References & Thanks
+![](vscode-remote://nickwaldock-awesomeaudi-k036j9j144e.ws-eu54.gitpod.io/workspace/AwesomeAudio_Site_1/assets/images/README%20Images/artists-phone-site.png)
 
 
 
@@ -149,6 +137,8 @@ settings pages > main branch save
 
 
 Decisions
+
+
 
 design decisions
 remove footer picture
@@ -178,10 +168,76 @@ Footer
 
 had issues with styling, link icons changing, changed row order of text, decided to add home link to main logo img and move it inline with icons
 
-Equipment
-hover reveal elements
+
+## Final Validation
+
+Note: The same single error can be see on each html page validation. This has been deliberately left in order to maintain functionality of the burger menu. If the error is resolved the menu fails to function as intended. This piece of code is the only instance in the project that was 'borrowed' and adapted for my own style purposes. The original code can be found[here](https://alvarotrigo.com/blog/hamburger-menu-css-responsive/).
+
+-[HTML Validation Results index.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fnickwaldock.github.io%2FAwesomeAudio_Site_1%2Findex.html)
+
+-[HTML Validation Results gallery.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fnickwaldock.github.io%2FAwesomeAudio_Site_1%2Fgallery.html)
+
+-[HTML Validation Results contact.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fnickwaldock.github.io%2FAwesomeAudio_Site_1%2Fcontact.html)
+
+-[HTML Validation Results terms.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fnickwaldock.github.io%2FAwesomeAudio_Site_1%2Fterms.html)
+
+-[HTML Validation Results thankyou.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fnickwaldock.github.io%2FAwesomeAudio_Site_1%2Fthankyou.html)
+
+-[CSS Validation Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fnickwaldock.github.io%2FAwesomeAudio_Site_1%2Fassets%2Fcss%2Fstyles.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+## Future Development
+
+Future development of this site could include:
+- Additional multi-media elements such as user controllable video and audio
+- Chat Bot for messaging and sorting enquiries
+- Live social media feeds
+- File sharing for completed projects 
 
 
+## Deployment
 
-Other References
-https://alvarotrigo.com/blog/hamburger-menu-css-responsive/
+The live site can be accessed [here](https://nickwaldock.github.io/AwesomeAudio_Site_1/)
+
+### GitHub
+This project was deloyed to GitHub Pages with the following steps:
+1. Log in to GitHub (create an account if necessary)
+2. Locate the [GitHub Respository](https://github.com/NickWaldock/AwesomeAudio_Site_1)
+3. On the repository page, find the 'Settings' icon anc click on it
+4. In the Settings page, look for and click the 'Pages' menu item on the left hand side (under section titled 'Code and automation', you may need to scroll down slightly)
+5. In the 'Pages' page, under 'Source', select 'Branch:main', then '/root' and click save
+6. After a few minutes, the site will be published
+
+### Forking
+The fork this repository proceed with the following steps:
+1. Log it to GitHub (create an account if necessary)
+2. Locate the [GitHub Respository](https://github.com/NickWaldock/AwesomeAudio_Site_1)
+3. On the repository page, find the 'Fork' menu in the top right, click on the small down arrow
+4. Select '+ Create a new fork'
+5. Remane repository as required
+6. Click 'Create Fork'
+7. You now have your forked version of this repository
+
+### Cloning
+To clone thei repository procees with the following steps:
+1. Log in to GitHub (create an account if necessary)
+2. Locate the [GitHub Respository](https://github.com/NickWaldock/AwesomeAudio_Site_1)
+3. On the repository page, find and click on the 'Code' menu in the mid-top right of the page
+4. Choose to either download or open in GitHub Desktop,
+  -or;
+    5. Choose the HTTPS option and copy the URL to your clipboard
+    6. - To clone the repository using HTTPS, under "HTTPS", copy the url
+       - To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click SSH, then copy the url
+       - To clone a repository using GitHub CLI, click GitHub CLI, then copy url
+    7. Open Terminal and change the current directory to where you want the cloned directory
+    8. Type git clone, and paste the url, press Enter to create your local clone
+
+## References & Acknowledgements
+
+### References
+
+Teh full list of references can be found [here](references.md)
+
+### Acknowledgements
+
+My thanks go to Chris Quinn, my mentor at Code Institute for his expert guidance, advice, support, and knowledge. The tutors at Code Institute who have assisted me in many troubleshooting and debugging steps
+
