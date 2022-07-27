@@ -96,7 +96,7 @@ Additional technologies include:
 - Gitpod
   - Online IDE for all coding work and site file management, terminal was used to add, commit, and push to Github
 
-
+# Validation
 ## Testing
 
 The site's code has been tested on W3C html validator and W3C CSS validator
@@ -104,7 +104,15 @@ The site was mainly tested during development on Google Chrome utilising the bro
 
 ## Bugs and Troubleshooting
 
-## Validation
+## Final Validation
+
+[HTML Validation Results index.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fnickwaldock.github.io%2FAwesomeAudio_Site_1%2Findex.html)
+[HTML Validation Results gallery.html]()
+[HTML Validation Results contact.html]()
+[HTML Validation Results terms.html]()
+[HTML Validation Results thankyou.html]()
+
+[CSS Validation Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fnickwaldock.github.io%2FAwesomeAudio_Site_1%2Fassets%2Fcss%2Fstyles.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ## Future Development
 
