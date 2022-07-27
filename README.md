@@ -106,19 +106,34 @@ The site was mainly tested during development on Google Chrome utilising the bro
 
 ## Final Validation
 
-[HTML Validation Results index.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fnickwaldock.github.io%2FAwesomeAudio_Site_1%2Findex.html)
+Note: The same single error can be see on each html page validation. This has been deliberately left in order to maintain functionality of the burger menu. If the error is resolved the menu fails to function as intended. This piece of code is the only instance in the project that was 'borrowed' and adapted for my own style purposes. The original code can be found[here](https://alvarotrigo.com/blog/hamburger-menu-css-responsive/).
 
-Error noted and ignored due to functionality of burger menu icon, if the 'error' is corrected, functionality of the menu fails
-[HTML Validation Results gallery.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fnickwaldock.github.io%2FAwesomeAudio_Site_1%2Fgallery.html)
-[HTML Validation Results contact.html]()
-[HTML Validation Results terms.html]()
-[HTML Validation Results thankyou.html]()
+-[HTML Validation Results index.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fnickwaldock.github.io%2FAwesomeAudio_Site_1%2Findex.html)
 
-[CSS Validation Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fnickwaldock.github.io%2FAwesomeAudio_Site_1%2Fassets%2Fcss%2Fstyles.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+-[HTML Validation Results gallery.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fnickwaldock.github.io%2FAwesomeAudio_Site_1%2Fgallery.html)
+
+-[HTML Validation Results contact.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fnickwaldock.github.io%2FAwesomeAudio_Site_1%2Fcontact.html)
+
+-[HTML Validation Results terms.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fnickwaldock.github.io%2FAwesomeAudio_Site_1%2Fterms.html)
+
+-[HTML Validation Results thankyou.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fnickwaldock.github.io%2FAwesomeAudio_Site_1%2Fthankyou.html)
+
+-[CSS Validation Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fnickwaldock.github.io%2FAwesomeAudio_Site_1%2Fassets%2Fcss%2Fstyles.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ## Future Development
 
 ## Deployment
+
+### GitHub
+This project was deloyed to GitHub Pages with the following steps:
+1. Log in to GitHub (create an account if necessary)
+2. Locate the [GitHub Respository](https://github.com/NickWaldock/AwesomeAudio_Site_1)
+3. On the repository page, find the 'Settings' icon anc click on it
+4. In the Settings page, look for and click the 'Pages' menu item on the left hand side (under section titled 'Code and automation', you may need to scroll down slightly)
+5. In the 'Pages' page, under 'Source', select 'Branch:main', then '/root' and click save
+6. After a few minutes, the site will be published
+
+
 
 The site can be accessed at: https://nickwaldock.github.io/AwesomeAudio_Site_1/
 
