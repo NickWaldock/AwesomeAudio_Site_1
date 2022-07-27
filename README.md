@@ -107,7 +107,9 @@ The site was mainly tested during development on Google Chrome utilising the bro
 ## Final Validation
 
 [HTML Validation Results index.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fnickwaldock.github.io%2FAwesomeAudio_Site_1%2Findex.html)
-[HTML Validation Results gallery.html]()
+
+Error noted and ignored due to functionality of burger menu icon, if the 'error' is corrected, functionality of the menu fails
+[HTML Validation Results gallery.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fnickwaldock.github.io%2FAwesomeAudio_Site_1%2Fgallery.html)
 [HTML Validation Results contact.html]()
 [HTML Validation Results terms.html]()
 [HTML Validation Results thankyou.html]()
