@@ -197,7 +197,7 @@
 
 #homepage {
 
-    margin-top: 15%;
+    margin-top: 10%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -300,13 +300,20 @@ h3 {
     margin: 1rem;
     max-width: 100%;
     font-family: Forum, sans-serif;
+    color: rgb(49, 45, 45)
 
 }
 
 .card-link {
 
     font-family: Montserrat, sans-serif;
+    color: rgb(49, 45, 45)
 
+}
+
+.card-link:visited {
+
+    color: rgb(49, 45, 45) !important;
 }
 
 /* -------------------------------------------------------------- Artists ------------------------------------------------------------ */
@@ -337,7 +344,7 @@ h3 {
     align-items: center;
     text-align: justify;
     font-family: Forum, sans-serif;
-    color: black;
+    color: rgb(49, 45, 45);
     font-weight: bold;
     font-size: 100%;
     line-height: 30px;
@@ -465,7 +472,7 @@ h3 {
     height: auto;
     margin: 20px auto;
     text-align: center;
-    color: black;
+    color: rgb(49, 45, 45);
 
 }
 
@@ -479,7 +486,7 @@ h3 {
 .jump-btn a {
 
     font-family: Montserrat, sans serif;
-    color: black !important;
+    color: rgb(49, 45, 45) !important;
     font-size: larger;
     text-decoration: none;
 
@@ -545,15 +552,6 @@ h3 {
 
 }
 
-@media screen and (max-width: 660px) {
-
-    body {
-        
-        margin-top: 3em;
-
-    }
-}
-
 /* --------------------------------------------------------- Gallery Page ----------------------------------------------------------- */
 .gallery-title {
 
@@ -564,7 +562,7 @@ h3 {
     color: black;
     text-transform: uppercase;
     font-weight: bolder;
-    margin-top: 9rem;
+    margin-top: 2.7em;
 
 }
 
@@ -701,7 +699,7 @@ h3 {
 #gallery-contact a:visited {
 
     color:black !important;
-    
+
 }
 
 /* ---------------------------------------------------------- Equipment ------------------------------------------------------------- */
@@ -760,7 +758,7 @@ h3 {
     text-align: center;
     font-family: Forum, sans-serif;
     font-size: larger;
-    color: rgb(44, 42, 42);
+    color: rgb(49, 45, 45);
     line-height: 30px;
     text-transform: uppercase;
 
@@ -928,6 +926,11 @@ h3 {
 
 }
 
+#contact-title {
+
+    margin-top: 6em;
+}
+
 .contact-label {
 
     font-family: Montserrat, sans-serif;
@@ -937,7 +940,7 @@ h3 {
     color: black;
     text-transform: uppercase;
     font-weight: normal;
-    margin-top: 20px;
+    margin-top: 3em;
 
 }
 
@@ -990,7 +993,7 @@ h3 {
 
     text-align: center;
     font-family: Montserrat, sans-serif;
-    color: black;
+    color: rgb(49, 45, 45);
     font-weight: bold;
     letter-spacing: 3px;
 
@@ -1028,6 +1031,7 @@ h3 {
 h3 {
 
     font-family: Montserrat, sans-serif;
+    color: black;
 
 }
 
@@ -1041,5 +1045,6 @@ h3 {
 p {
 
     font-family: forum, sans-serif;
+    color: rgb(49, 45, 45);
 
 }
