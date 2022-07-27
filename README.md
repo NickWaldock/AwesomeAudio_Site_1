@@ -100,7 +100,7 @@ Additional technologies include:
 ## Testing
 
 The site's code has been tested on W3C html validator and W3C CSS validator
-The site was mainly tested during development on Google Chrome utilising the browsers built-in Developer Tools, and has also been tested on Safari and Firefox browsers.
+The site was mainly tested during development on Google Chrome utilising the browser's built-in DevTools, and has also been tested on Safari and Firefox browsers with coresponding use of developer tools.
 
 ## Bugs and Troubleshooting
 
@@ -155,3 +155,8 @@ had issues with styling, link icons changing, changed row order of text, decided
 
 Equipment
 hover reveal elements
+
+
+
+Other References
+https://alvarotrigo.com/blog/hamburger-menu-css-responsive/
