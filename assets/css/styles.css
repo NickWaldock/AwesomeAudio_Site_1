@@ -900,8 +900,8 @@ h3 {
 /* ------------------------------------------------- Terms And Conditions ----------------------------------------------------------- */
 #terms {
 
-    margin-left: 1.5rem;
-    padding-top: 5em;
+    margin: 0 1em 0 1em;
+    padding: 5em 0 0 0;
 
 }
 
@@ -921,6 +921,6 @@ h3 {
 #terms ul,
 p {
 
-    font-family: forum, sans serif;
+    font-family: forum, sans-serif;
 
 }
