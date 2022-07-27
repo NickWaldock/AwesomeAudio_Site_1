@@ -94,7 +94,7 @@ nav {
     text-align: center;
     float: left;
     text-decoration: none;
-    color: black;
+    color: black !important;
     font-family: Montserrat, sans-serif;
     text-transform: uppercase;
     font-weight: bold;
@@ -126,6 +126,11 @@ nav {
     align-items: center;
     padding-bottom: 10%;
 
+}
+
+#homepage img {
+
+    max-width: 50%;
 }
 
 #homepage h3 {
