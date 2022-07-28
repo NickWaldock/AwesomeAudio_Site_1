@@ -298,19 +298,22 @@ h3 {
 #countryside-img {
 
     width: 100%;
-    aspect-ratio: 1;
+    aspect-ratio: 1 / 1;
+    
 }
 
 #space-img {
 
     width: 100%;
-    aspect-ratio: 1;
+    aspect-ratio: 1 / 1;
+
 }
 
 #rack-img {
 
     width: 100%;
     aspect-ratio: 1 / 1;
+
 }
 
 .card-content {
@@ -318,7 +321,7 @@ h3 {
     margin: 1rem;
     max-width: 100%;
     font-family: Forum, sans-serif;
-    color: rgb(49, 45, 45)
+    color: rgb(49, 45, 45);
 
 }
 
@@ -332,6 +335,7 @@ h3 {
 .card-link:visited {
 
     color: rgb(49, 45, 45) !important;
+
 }
 
 /* -------------------------------------------------------------- Artists ------------------------------------------------------------ */
