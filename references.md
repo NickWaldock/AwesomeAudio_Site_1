@@ -1,45 +1,21 @@
-Stock Photos
+# Stock Photos
+## Royalty Free
 
+- [Pexels](www.pexels.com/)
+- [Pixabay](www.pixabay.com/)
+- [Unsplash](www.unsplash.com/)
+- [Masterlink Productions](www.masterlinkproductions.co.uk)
 
-Faders on desk
-https://www.pexels.com/photo/silver-and-gold-adjustment-controls-of-audio-equipment-4634553/
-
-Black & Grey Audio Mixer
-https://www.pexels.com/photo/black-and-gray-audio-mixer-3784221/
-
-Synth
-https://www.pexels.com/photo/close-up-photo-of-electronic-keyboard-2960891/
-
-Hardware 1
-https://www.pexels.com/photo/red-and-black-audio-mixer-4088009/
-
-Guitar Amplifier (fender)
-https://www.pexels.com/photo/black-and-red-corded-device-4087993/
-
-Hardware 2
-https://pixabay.com/photos/microphone-cable-mixer-music-audio-4272185/
-
-Countryside House
-https://pixabay.com/photos/nature-sunset-sunrise-countryside-1283747/
-
-Countryside View
-https://www.pexels.com/photo/mountain-near-body-of-water-8841969/
-
-Artist Pictures
-artist 1: https://www.pexels.com/photo/man-playing-guitar-167445/
-artist 2: https://www.pexels.com/search/music%20artist/
-artist 3: https://www.pexels.com/photo/a-band-performing-on-stage-7715660/
+## Specific Image References
+studio-1, studio-2: https://www.riftstudiosnyc.com/o/
+vintage-rack: https://csmedialabs.com/studio-a-outboard-gear-preamps-and-equalizers/
 
 
 Equipment Images
 Borrowed from James Welch at Masterlink Productions Studio, Surrey
 
 Images
-studio-1, studio-2: https://www.riftstudiosnyc.com/o/
-vintage-rack: https://csmedialabs.com/studio-a-outboard-gear-preamps-and-equalizers/
-studio-3: https://unsplash.com/photos/ptVBlniJi50
-rack-unit-2: https://unsplash.com/photos/QnWXq1qYFyU
-rack-unit-3: https://unsplash.com/photos/MfdQgUjZP6M
+
 
 Logo
 Canva.com
