@@ -1,5 +1,5 @@
-# Stock Photos
-## Royalty Free
+# Images
+## Royalty Free Stock Images
 
 - [Pexels](www.pexels.com/)
 - [Pixabay](www.pixabay.com/)
@@ -11,14 +11,11 @@
 - studio-2.webp: https://www.riftstudiosnyc.com/o/
 - vintage-rack.webp: https://csmedialabs.com/studio-a-outboard-gear-preamps-and-equalizers/
 
-Other images used with permission for site demonstration from [Masterlink Productions](http://www.masterlinkproductions.co.uk) Studio, Surrey
+Other images used with permission from [Masterlink Productions](http://www.masterlinkproductions.co.uk) Studio, Surrey
 <br />
 <br />
 
-# Google Maps Reference
-https://www.google.co.uk/maps/place/Lakefield+Boathouse/@54.5803677,-2.8972878,1208m/data=!3m1!1e3!4m18!1m12!4m11!1m3!2m2!1d-2.8914041!2d54.5798366!1m6!1m2!1s0x487cc16220357017:0xe80e4a89df872374!2sCumbria!2m2!1d-3.1184614!2d54.4816677!3m4!1s0x487ce5f8ce571f2f:0xc5a5fec7861822a3!8m2!3d54.5766951!4d-2.9002897
-<br />
-<br />
+
 
 # Music Studio Design Research
 
@@ -36,16 +33,20 @@ https://www.google.co.uk/maps/place/Lakefield+Boathouse/@54.5803677,-2.8972878,1
 # Artist Bios
 All artists on the Awesome Audio Site are fictional. Their bios were adapted from existing EPKs for real artists to demonstrate content.
 <br />
+<br />
 
 - [Taylor Savo](https://www.stagehand.app/artists/177)
 - [Autumn Velaquez](https://www.thepitldn.com/epk-laura-roy)
 - [The Anyones](https://oceanflattsofficia.wixsite.com/electronicpresskit)
 
-
 # Development Tools
 - [W3 Code Validator](https://validator.w3.org/)
 - [Eye Dropper](https://eyedropper.org/)
-
+- [Image Color Picker](https://imagecolorpicker.com/)
+- [Google Maps](https://www.google.co.uk/maps/place/Lakefield+Boathouse/@54.5803677,-2.8972878,1208m/data=!3m1!1e3!4m18!1m12!4m11!1m3!2m2!1d-2.8914041!2d54.5798366!1m6!1m2!1s0x487cc16220357017:0xe80e4a89df872374!2sCumbria!2m2!1d-3.1184614!2d54.4816677!3m4!1s0x487ce5f8ce571f2f:0xc5a5fec7861822a3!8m2!3d54.5766951!4d-2.9002897
+)
+<br />
+<br />
 
 
 # Troubleshooting & General Reference
@@ -67,3 +68,9 @@ All artists on the Awesome Audio Site are fictional. Their bios were adapted fro
 - [Learn CSS Grid](https://learncssgrid.com/)
 - [Grid Malven](https://grid.malven.co/)
 - [GitHub Docs](https://docs.github.com/)
+- [Code The Web](https://codetheweb.blog/)
+- [Log Rocket](https://blog.logrocket.com/)
+- [User Snap](https://usersnap.com/blog/background-webdesign/)
+- [Vandelay Design](https://www.vandelaydesign.com/)
+- [Scott Granneman](https://granneman.com/webdev/)
+

@@ -15,12 +15,14 @@
 6. [Deployment](#deployment)
 7. [References & Acknowledgements](#references--acknowledgements)
 <br />
+<br />
 
 # Introduction
 
-Awesome Audio is fictional music recording studio inspired from the dreams of a musician with a love for high quality and vintage audio recording alongside the inspirational tranquility that only the countryside can bring. Awesome Audio offers all this for audio recording session free from the distractions of busy city music scenes.
+Awesome Audio is fictional music recording studio inspired from the dreams of a musician with a love for high quality and vintage audio recording alongside the inspirational tranquility that only the countryside can bring. Awesome Audio offers all this for an audio recording session free from the distractions of busy city music scenes.
 
 Thank you for taking the time to browse this site which represents my first forray into the world of coding! 
+<br />
 <br />
 
 # Overview & Aims
@@ -35,6 +37,7 @@ The Awesome Audio site aims to:
 3. Provide an easy-to-navigate web space with ease for users to make enquiries
 4. Clearly demonstrate all the initially important information a propsetive client would be insterested in and looking for when researching a recording studio, including visual gallery, recent client list, equipment lists, location, and contact details;
 5. To be of responsive design and able to work on all device screen sizes
+<br />
 <br />
 
 # User Experience (UX)
@@ -54,13 +57,15 @@ As a frequent visitor, I want to:
 - Be able to navigate to the map easily to find the exact location and plan logistics through google maps.
 - Be able to see the terms and conditions of booking with the company including cancellation procedure, deposits, and completion of work conditions
 <br />
+<br />
 
 # Main Features
 
 ## Inspiration for Design
-Design ideas were inspired from a number of audio recording websites, see[references](references.md). Key design ideas and important information to include was inspired by and used with permission from my good friends at [Masterlink Productions](https://www.masterlinkproductions.co.uk). Particularly the, about section, equipment list, gallery images, and terms and conditions.
+Design ideas were inspired from a number of audio recording websites, see [references](references.md). Key design ideas and important information to include was inspired by and used with permission from my good friends at [Masterlink Productions](https://www.masterlinkproductions.co.uk). Particularly the, about section, equipment list, gallery images, and terms and conditions.
 
-Note: Artist information is fictional
+Note: As with the rest of the site, the 'Artists' are fictional.
+<br />
 <br />
 
 ## Logo and Typography
@@ -68,23 +73,27 @@ The Awesome audio logo was created in [Canva](https://www.canva.com/) and uses a
 
 Forum has an antique and classic feel reflecting the companies love for high-end vintage equipment and Montserrat to reflect simpliciity, style, and order.
 <br />
+<br />
 
 ## Colors and Imagery
 Black solid parallel lines are used as a design feature to seperate seections and provide definition to images, this is to demonstrate stability to the design. Corners were softened to reflect the more tranquil nature of the brand. As the brand is a fictious one, images used were either from royalty-free stock images sites or from the [Masterlink Productions](www.masterlinkproductions.co.uk).
 
 A full reference list for images and content can be found [here](/references.md)
 <br />
+<br />
 
 ## Wireframes
 
-[PDF Wireframe Designs](/assets/images/README%20Images/site-wireframe.pdf)
+[PDF Wireframe Designs](/assets/images/README%20Images/site-wireframe.pdf =width="200" height="400")
 
 Initial wireframe designs for the project were constructed after audio recording studio website research and marked up by hand.
-In most cases, wireframe design was adhered to, but in some cases the design was altered in the process of coding. An example of this is this [equipment section](/assets/images/README%20Images/equipment-wireframe.png), where the layout was unfeasable to display all of the relevant information in an effective and pleasing way.
+In most cases, wireframe design was adhered to, but in some cases the design was altered in the process of coding. An example of this is this [equipment section](/assets/images/README%20Images/equipment-wireframe.png width="200" height="400"), where the layout was unfeasable to display all of the relevant information in an effective and pleasing way.
+<br />
 <br />
 
 ## Features
-- The Awesome Audio website is built with responsive design for viewports > 450vw
+- The Awesome Audio website is built with responsive design and is effective for viewports >450vw
+<br />
 - Interactive elements:
   - An always visible navigation bar with in-page links and cross-site links that indicates which main page you are currently viewing.
   - Navagation text hides below 900vw and can be revealed when clicking the top left logo icon, this is to tidy up the design on smaller screens.
@@ -92,11 +101,10 @@ In most cases, wireframe design was adhered to, but in some cases the design was
   - Gallery with organised images
   - Other interactive elements such as: jump to top button, footer with social links, and a submittable contact page with confirmation and thank you message.
   <br />
+  <br />
 
 # Technologies
-
 Languages used in this site are HTML 5 and CSS3
-
 Additional technologies include: 
 - Google fonts
   - to import the Forum and Montserrat fonts into the style.css file
@@ -115,82 +123,93 @@ Additional technologies include:
 - Gitpod
   - Online IDE for all coding work and site file management, terminal was used to add, commit, and push to Github
   <br />
+  <br />
 
 # Validation
-## Testing
-
-The site's code has been tested on W3C html validator and W3C CSS validator
-The site was mainly tested during development on Google Chrome utilising the browser's built-in DevTools, and has also been tested on Safari and Firefox browsers with coresponding use of developer tools.
-<br />
 
 ## Bugs, Troubleshooting & Design Changes
 
 Some of the design of the site doesn't fully reflect the initial wireframe designs. As this is my first attempt at creating my own site there were a number of moments of redesign during deployment due to my fledgling understanding of good design aethestics. 
 
 The following are the main changes in design
-1. The 'About Us' section 
-![](/assets/images/README%20Images/about-us-wireframe.png)
+### 1. The 'About Us' section 
+
+<br />
+
+![](/assets/images/README%20Images/about-us-wireframe.png =width="200" height="400")
+
+<br />
 
 The original wireframe had this section arranged in 6 seperate elements with headings in-between and links indented with the text. This proved to be difficult to effectively achieve in development and led me to learning about Grid and Flex notebly from this [Kevil Powell video](https://www.youtube.com/watch?v=sKFW3wek21Q) where Kevin arranges his information in the form of 'cards'. I opted to adapt my design to this for ease of styling and eventual responsiveness.
 
-![](vscode-remote://nickwaldock-awesomeaudi-k036j9j144e.ws-eu54.gitpod.io/workspace/AwesomeAudio_Site_1/assets/images/README%20Images/about-us-site.png)
+<br />
 
-2. The 'Equipment' Section
-![](/assets/images/README%20Images/equipment-wireframe.png)![](/assets/images/README%20Images/equipment-phone-wireframe.png)
+![](/assets/images/README%20Images/about-us-site.png =width="200" height="400")
+
+<br />
+
+### 2. The 'Equipment' Section
+
+<br />
+
+![](/assets/images/README%20Images/equipment-wireframe.png width="200" height="400")![](/assets/images/README%20Images/equipment-phone-wireframe.png =width="200" height="400")
+
+<br />
 
 In this original design I envisaged text information and links all within an relating image. This again became difficult due to the qualtity of content information I was aiming to convey. The design quickly became unfeasable, and in a desire to simplify the design and layout I once again turned to grid and flex to facilitate this. 
 
-![](/assets/images/README%20Images/equipment-phone-site.png)
+<br />
 
-3. The 'Recent Artists' Section
-![](/assets/images/README%20Images/artists-phone-wireframe.png)
+![](/assets/images/README%20Images/equipment-phone-site.png =width="200" height="400")
+<br />
+
+### 3. The 'Recent Artists' Section
+
+<br />
+
+<img src="/assets/images/README%20Images/artists-phone-wireframe.png" width="25%">
+
+<br />
 
 On reflection of the original wireframe this design unlikely to be effective. The design is quite different to the full-width design and could make the aesthetic incongruent between devices. Again, grid was instead used to re-arrange the images and text in a single column for smaller screens.
 
-![](/assets/images/README%20Images/artists-phone-site.png)
 <br />
 
+<img src="./assets/images/README%20Images/artists-phone-site.png" width="25%">
+
+<br />
+<br />
+
+## Testing
+
+The site's code has been tested on W3C html validator and W3C CSS validator
+The site was mainly tested during development on Google Chrome utilising the browser's built-in DevTools, and has also been tested on Safari and Firefox browsers with coresponding use of developer tools.
+<br />
+<br />
+
+## Bugs
+
+When testing the site on Firefox and Safari two main issues were discovered:
+1. Links were changing color to render as 'visited' including the footer social icon links. This was solved through direct element targeting and the use of the "!Important" value. 
+2. The 'About Us' section images would not maintain their 1/1 aspect ratio. This was solved with an extra line of directly targeted code in the CSS stylesheet.
 
 
+## Validation
 
+HTML and CSS validations have passed, with a single exception due to the design and functionality of the hamburger menu.
+![](/assets/images/README%20Images/validation-error.png =width="200" height="400")
 
+ This same single error exists on each html page validation result due to this decision. This has been deliberately left in order to maintain functionality of the hamburger menu. I attempted to resolve this with experimenting with alternative arrangments of the elements but within at the start of my coding journey it seemed to me that if the error is resolved the menu fails to function as intended, and I was advised to keep it and discuss the reasons here. I had originally experimented with other menu designs including using the site logo to toggle and reveal a menu, however these designs didn't feel right. I then disocvered a blog with an elegant and simple menu for smaller screens. The final code used was quoted and adapted to fit with the site's generaly themes and styles. It is the only instance in the project where code was directly 'borrowed' and then adapted. It is this core code that causes the error due to the use of a 'nav' inside a 'label' in that particular context. The original code can be found [here](https://alvarotrigo.com/blog/hamburger-menu-css-responsive/).
 
-Decisions
+ Future development could include searching for an alternative function as my knowledge improves, or a redesign of the menu althogether.
 
-
-
-design decisions
-remove footer picture
-circle about images
-
-
-
-Trouble shooting
-13px margin in footer - unknown origin
-Using outlinesand borders for images
-Vertical bar overflow on the right hand side - https://stackoverflow.com/questions/4617872/white-space-showing-up-on-right-side-of-page-when-background-image-should-extend
-
-About images need to shrink with screen size shrinking.
-
-
-After Mid-point Call
-Massivley scale down images - problem with sizes in grid, min/max- width
-remove video background
-responsiveness
-format for phone
-
-submit form - not free icon - GET instead of PUSH
-
-
-
-Footer
-
-had issues with styling, link icons changing, changed row order of text, decided to add home link to main logo img and move it inline with icons
-
-
-## Final Validation
-
-Note: The same single error can be see on each html page validation. This has been deliberately left in order to maintain functionality of the burger menu. If the error is resolved the menu fails to function as intended. This piece of code is the only instance in the project that was 'borrowed' and adapted for my own style purposes. The original code can be found[here](https://alvarotrigo.com/blog/hamburger-menu-css-responsive/).
+ Only a few other minor validation errors were found and subsequently fixed:
+ 1. Duplicate id tags
+ 2. Incorrect Aria labels
+ 3. Missing alt tags for images
+ 4. A missing space between two classes
+ 5. Contact form submit button format and use of 'a' elements and icon
+ 6. Internal nav bar links broken
 
 -[HTML Validation Results index.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fnickwaldock.github.io%2FAwesomeAudio_Site_1%2Findex.html)
 
@@ -204,6 +223,10 @@ Note: The same single error can be see on each html page validation. This has be
 
 -[CSS Validation Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fnickwaldock.github.io%2FAwesomeAudio_Site_1%2Fassets%2Fcss%2Fstyles.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
+<br />
+
+
+
 ## Future Development
 
 Future development of this site could include:
@@ -211,11 +234,16 @@ Future development of this site could include:
 - Chat Bot for messaging and sorting enquiries
 - Live social media feeds
 - File sharing for completed projects 
-
+- A 'Services' section detail the specific services the company offers
+- A blog
+- Making the gallery more interactive, click to enlarge images with detailed captions
+<br />
+<br />
 
 ## Deployment
 
 The live site can be accessed [here](https://nickwaldock.github.io/AwesomeAudio_Site_1/)
+<br />
 
 ### GitHub
 This project was deloyed to GitHub Pages with the following steps:
@@ -225,6 +253,7 @@ This project was deloyed to GitHub Pages with the following steps:
 4. In the Settings page, look for and click the 'Pages' menu item on the left hand side (under section titled 'Code and automation', you may need to scroll down slightly)
 5. In the 'Pages' page, under 'Source', select 'Branch:main', then '/root' and click save
 6. After a few minutes, the site will be published
+<br />
 
 ### Forking
 The fork this repository proceed with the following steps:
@@ -235,6 +264,7 @@ The fork this repository proceed with the following steps:
 5. Remane repository as required
 6. Click 'Create Fork'
 7. You now have your forked version of this repository
+<br />
 
 ### Cloning
 To clone thei repository procees with the following steps:
@@ -249,14 +279,18 @@ To clone thei repository procees with the following steps:
        - To clone a repository using GitHub CLI, click GitHub CLI, then copy url
     7. Open Terminal and change the current directory to where you want the cloned directory
     8. Type git clone, and paste the url, press Enter to create your local clone
+<br />
+<br />
 
 ## References & Acknowledgements
+<br />
 
 ### References
 
-Teh full list of references can be found [here](references.md)
+The full list of references can be found [here](references.md)
+<br />
 
 ### Acknowledgements
 
-My thanks go to Chris Quinn, my mentor at Code Institute for his expert guidance, advice, support, and knowledge. The tutors at Code Institute who have assisted me in many troubleshooting and debugging steps
+My thanks go to Chris Quinn, my mentor at Code Institute for his expert guidance, advice, support, and knowledge. The tutors at Code Institute who have assisted me in many troubleshooting and debugging steps, and my partner Kendal for supporting me with a steady stream of tea during my long hours staring at the screen! And finally to you, for taking the time to check out this project. Thank you.
 
