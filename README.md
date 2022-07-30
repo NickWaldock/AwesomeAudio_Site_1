@@ -1,5 +1,7 @@
 # Welcome to the Awesome Audio Website
-![Am I Responsive](/assets/images/README%20Images/am-i-responsive.png)
+<p align="center">
+<img src="./assets/images/readme-images/am-i-responsive.png" width="100%">
+</p>
 
 [View the site here](https://nickwaldock.github.io/AwesomeAudio_Site_1/)
 <br />
@@ -84,7 +86,13 @@ A full reference list for images and content can be found [here](/references.md)
 
 ## Wireframes
 
-[PDF Wireframe Designs](/assets/images/README%20Images/site-wireframe.pdf =width="200" height="400")
+<p>
+<img src="./assets/images/readme-images/site-wireframe-1.png" width="49%">
+<img src="./assets/images/readme-images/site-wireframe-2.png" width="49%">
+</p>
+<p align="center">
+<img src="./assets/images/readme-images/site-wireframe-3.png" width="50%">
+</p>
 
 Initial wireframe designs for the project were constructed after audio recording studio website research and marked up by hand.
 In most cases, wireframe design was adhered to, but in some cases the design was altered in the process of coding. An example of this is this [equipment section](/assets/images/README%20Images/equipment-wireframe.png width="200" height="400"), where the layout was unfeasable to display all of the relevant information in an effective and pleasing way.
@@ -97,12 +105,16 @@ In most cases, wireframe design was adhered to, but in some cases the design was
 - Interactive elements:
   - An always visible navigation bar with in-page links and cross-site links that indicates which main page you are currently viewing
   <br />
-  <img src="./assets/images/README%20Images/main-page.png" width=400px>
+  <p align="center">
+  <img src="./assets/images/readme-images/main-page.png" width="50%">
+  </p>
   <br />
   - Hamburger menu for screens < 840px
   <br />
-  <img src="assets/images/README%20Images/hamburger-menu.png" width=200px>
-
+  <p align="center">
+  <img src="assets/images/readme-images/hamburger-menu.png" width="25%">
+</p>
+<br />
   - About Us information cards with internal links to relevant information
   - Gallery with organised images
   - Other interactive elements such as: jump to top button, footer with social links, and a submittable contact page with confirmation and thank you message.
@@ -138,42 +150,55 @@ Additional technologies include:
 Some of the design of the site doesn't fully reflect the initial wireframe designs. As this is my first attempt at creating my own site there were a number of moments of redesign during deployment due to my fledgling understanding of good design aethestics. 
 
 The following are the main changes in design
+<br />
+<br />
+
 ### 1. The 'About Us' section 
 
 <br />
 
-![](/assets/images/README%20Images/about-us-wireframe.png =width="200" height="400")
-
+<p align="center">
+<img src="./assets/images/readme-images/about-us-wireframe.png" width="50%">
+</p>
 <br />
 
 The original wireframe had this section arranged in 6 seperate elements with headings in-between and links indented with the text. This proved to be difficult to effectively achieve in development and led me to learning about Grid and Flex notebly from this [Kevil Powell video](https://www.youtube.com/watch?v=sKFW3wek21Q) where Kevin arranges his information in the form of 'cards'. I opted to adapt my design to this for ease of styling and eventual responsiveness.
 
 <br />
 
-![](/assets/images/README%20Images/about-us-site.png =width="200" height="400")
+<p align="center">
+<img src="./assets/images/readme-images/about-us-site.png" width="50%">
+</p>
 
 <br />
 
 ### 2. The 'Equipment' Section
 
 <br />
-
-![](/assets/images/README%20Images/equipment-wireframe.png width="200" height="400")![](/assets/images/README%20Images/equipment-phone-wireframe.png =width="200" height="400")
-
+<p  align="center">
+<img src="./assets/images/readme-images/equipment-wireframe.png" width="50%">
+</p>
+<p align="center">
+<img src="./assets/images/readme-images/equipment-phone-wireframe.png" width="25%">
+</p>
 <br />
 
 In this original design I envisaged text information and links all within an relating image. This again became difficult due to the qualtity of content information I was aiming to convey. The design quickly became unfeasable, and in a desire to simplify the design and layout I once again turned to grid and flex to facilitate this. 
 
 <br />
 
-![](/assets/images/README%20Images/equipment-phone-site.png =width="200" height="400")
+<p align="center">
+<img src="./assets/images/readme-images/equipment-phone-site.png" width="25%">
+</p>
 <br />
 
 ### 3. The 'Recent Artists' Section
 
 <br />
 
-<img src="/assets/images/README%20Images/artists-phone-wireframe.png" width="25%">
+<p align="center">
+<img src="./assets/images/readme-images/artists-phone-wireframe.png" width="25%">
+</p>
 
 <br />
 
@@ -181,8 +206,9 @@ On reflection of the original wireframe this design unlikely to be effective. Th
 
 <br />
 
-<img src="./assets/images/README%20Images/artists-phone-site.png" width="25%">
-
+<p align="center">
+<img src="./assets/images/readme-images/artists-phone-site.png" width="25%">
+</p>
 <br />
 <br />
 
@@ -198,12 +224,16 @@ The site was mainly tested during development on Google Chrome utilising the bro
 When testing the site on Firefox and Safari two main issues were discovered:
 1. Links were changing color to render as 'visited' including the footer social icon links. This was solved through direct element targeting and the use of the "!Important" value. 
 2. The 'About Us' section images would not maintain their 1/1 aspect ratio. This was solved with an extra line of directly targeted code in the CSS stylesheet.
+<br />
 
+## Lighthouse
 
 ## Validation
 
 HTML and CSS validations have passed, with a single exception due to the design and functionality of the hamburger menu.
-![](/assets/images/README%20Images/validation-error.png =width="200" height="400")
+<p align="center">
+<img src="/.assets/images/readme-images/validation-error.png" width="50%">
+</p>
 
  This same single error exists on each html page validation result due to this decision. This has been deliberately left in order to maintain functionality of the hamburger menu. I attempted to resolve this with experimenting with alternative arrangments of the elements but within at the start of my coding journey it seemed to me that if the error is resolved the menu fails to function as intended, and I was advised to keep it and discuss the reasons here. I had originally experimented with other menu designs including using the site logo to toggle and reveal a menu, however these designs didn't feel right. I then disocvered a blog with an elegant and simple menu for smaller screens. The final code used was quoted and adapted to fit with the site's generaly themes and styles. It is the only instance in the project where code was directly 'borrowed' and then adapted. It is this core code that causes the error due to the use of a 'nav' inside a 'label' in that particular context. The original code can be found [here](https://alvarotrigo.com/blog/hamburger-menu-css-responsive/).
 
@@ -216,22 +246,49 @@ HTML and CSS validations have passed, with a single exception due to the design 
  4. A missing space between two classes
  5. Contact form submit button format and use of 'a' elements and icon
  6. Internal nav bar links broken
-
--[HTML Validation Results index.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fnickwaldock.github.io%2FAwesomeAudio_Site_1%2Findex.html)
-
--[HTML Validation Results gallery.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fnickwaldock.github.io%2FAwesomeAudio_Site_1%2Fgallery.html)
-
--[HTML Validation Results contact.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fnickwaldock.github.io%2FAwesomeAudio_Site_1%2Fcontact.html)
-
--[HTML Validation Results terms.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fnickwaldock.github.io%2FAwesomeAudio_Site_1%2Fterms.html)
-
--[HTML Validation Results thankyou.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fnickwaldock.github.io%2FAwesomeAudio_Site_1%2Fthankyou.html)
-
--[CSS Validation Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fnickwaldock.github.io%2FAwesomeAudio_Site_1%2Fassets%2Fcss%2Fstyles.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-
 <br />
 
+###
+[HTML Validation Results index.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fnickwaldock.github.io%2FAwesomeAudio_Site_1%2Findex.html)
+<p align="left">
+<img src="./assets/images/readme-images/index-validation.png" width="50%">
+</p>
+<br />
 
+###
+[HTML Validation Results gallery.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fnickwaldock.github.io%2FAwesomeAudio_Site_1%2Fgallery.html)
+<p align="left">
+<img src="./assets/images/readme-images/gallery-validation.png" width="50%">
+</p>
+<br />
+
+###
+[HTML Validation Results contact.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fnickwaldock.github.io%2FAwesomeAudio_Site_1%2Fcontact.html)
+<p align="left">
+<img src="./assets/images/readme-images/contact-validation.png" width="50%">
+</p>
+<br />
+
+###
+[HTML Validation Results terms.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fnickwaldock.github.io%2FAwesomeAudio_Site_1%2Fterms.html)
+<p align="left">
+<img src="./assets/images/readme-images/terms-validation.png" width="50%">
+</p>
+<br />
+
+###
+[HTML Validation Results thankyou.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fnickwaldock.github.io%2FAwesomeAudio_Site_1%2Fthankyou.html)
+<p align="left">
+<img src="./assets/images/readme-images/thankyou-validation.png" width="50%">
+</p>
+<br />
+
+###
+[CSS Validation Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fnickwaldock.github.io%2FAwesomeAudio_Site_1%2Fassets%2Fcss%2Fstyles.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+<p align="left">
+<img src="./assets/images/readme-images/css-validation.png" width="50%">
+</p>
+<br />
 
 ## Future Development
 
