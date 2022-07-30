@@ -10,6 +10,8 @@
     top: 0;
     left: 0;
     z-index: 10;
+    box-shadow: 0 .25rem 1rem rgb(0 0 0 / .4);
+
 
 }
 
@@ -22,7 +24,7 @@
     justify-content: center;
     width: 100%;
     position: fixed;
-    background: #FFF9F6;
+    background: white;
     margin: 0px;  
     z-index: 9;
     height: 60px;
@@ -113,9 +115,9 @@
     background: linear-gradient(
         to bottom, 
         #e49372, #e49372 20%, 
-        #FFF9F6 20%, #FFF9F6 40%, 
+        white 20%, white 40%, 
         #e49372 40%, #e49372 60%, 
-        #FFF9F6 60%, #FFF9F6 80%, 
+        white 60%, white 80%, 
         #e49372 80%, #e49372 100%);
 
 }
@@ -137,7 +139,7 @@
 
 #hamburger-menu h3 {
 
-    color: #FFF9F6;
+    color: white;
     font-size: 2.2rem;
     margin-top: 3em;
 
@@ -158,7 +160,7 @@
 
 #hamburger-menu a {
 
-    color: #FFF9F6 !important;
+    color: white !important;
     font-size: 1.3rem;
     text-decoration: none;
 
@@ -167,8 +169,8 @@
 #hamburger-menu a:hover {
 
     text-decoration: none;
-    border-top: 1px solid #FFF9F6;
-    border-bottom: 1px solid #FFF9F6;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
 
 }
 
@@ -207,8 +209,10 @@
 
 #homepage img {
 
-    max-width: 50%;
+    max-width: 25%;
     margin-top: 1em;
+    box-shadow: 0 .25rem 1rem rgb(0 0 0 / .4);
+
 }
 
 #homepage h3 {
@@ -221,6 +225,7 @@
 }
 
 #logo-small {
+
     border-radius: 50%;
     max-height: 100px;
     height: auto;
@@ -231,7 +236,7 @@
 html,
 body {
 
-    background-color: #FFF9F6;
+    background-color: white;
     width: 100%;
     margin: 0px;
     padding: 0px;
@@ -328,7 +333,7 @@ h3 {
 .card-link {
 
     font-family: Montserrat, sans-serif;
-    color: rgb(49, 45, 45);
+    color: rgb(49, 45, 45) !important;
 
 }
 
@@ -712,7 +717,7 @@ h3 {
 #gallery-contact a {
 
     text-decoration: none;
-    color: black;
+    color: black !important;
     font-size: larger;
     font-family: Montserrat, sans-serif;
     text-transform: uppercase;
