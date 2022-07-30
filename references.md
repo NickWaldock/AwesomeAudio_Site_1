@@ -16,8 +16,7 @@ Other images used with permission from [Masterlink Productions](http://www.maste
 <br />
 
 
-
-# Music Studio Design Research
+# General Site Design Research
 
 - [Masterlink Productions](http://www.masterlinkproductions.co.uk)
 - [Oscillate Recordings](http://oscillaterecordings.co.uk/gallery)
@@ -47,7 +46,6 @@ All artists on the Awesome Audio Site are fictional. Their bios were adapted fro
 )
 <br />
 <br />
-
 
 # Troubleshooting & General Reference
 

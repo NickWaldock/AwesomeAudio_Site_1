@@ -45,17 +45,17 @@ The Awesome Audio site aims to:
 # User Experience (UX)
 ## User Stories
 
-As a first time visitor, I want to:
+### As a first time visitor, I want to:
 
 - Easily navigate around the site and find all the relevant information to discover if I am interested in bringing my project there.
 - Easily find key information such as location, equipment lists, and pictures of the recording spaces.
 - Be able to find the companies relevant social media pages
 
-As a returning visitor, I want to:
+### As a returning visitor, I want to:
 - Easily be able to send a message to the company and have confidence of receiving a reply
 - Read information about the companies recent client lists to see the calibur of artists that are recording there.
 
-As a frequent visitor, I want to: 
+### As a frequent visitor, I want to: 
 - Be able to navigate to the map easily to find the exact location and plan logistics through google maps.
 - Be able to see the terms and conditions of booking with the company including cancellation procedure, deposits, and completion of work conditions
 <br />
@@ -143,7 +143,7 @@ Additional technologies include:
   <br />
   <br />
 
-# Validation
+# Testing & Validation
 
 ## Bugs, Troubleshooting & Design Changes
 
@@ -226,14 +226,13 @@ When testing the site on Firefox and Safari two main issues were discovered:
 2. The 'About Us' section images would not maintain their 1/1 aspect ratio. This was solved with an extra line of directly targeted code in the CSS stylesheet.
 <br />
 
-## Lighthouse
-
 ## Validation
 
 HTML and CSS validations have passed, with a single exception due to the design and functionality of the hamburger menu.
 <p align="center">
-<img src="/.assets/images/readme-images/validation-error.png" width="50%">
+<img src="assets/images/readme-images/validation-error.png" width="50%">
 </p>
+
 
  This same single error exists on each html page validation result due to this decision. This has been deliberately left in order to maintain functionality of the hamburger menu. I attempted to resolve this with experimenting with alternative arrangments of the elements but within at the start of my coding journey it seemed to me that if the error is resolved the menu fails to function as intended, and I was advised to keep it and discuss the reasons here. I had originally experimented with other menu designs including using the site logo to toggle and reveal a menu, however these designs didn't feel right. I then disocvered a blog with an elegant and simple menu for smaller screens. The final code used was quoted and adapted to fit with the site's generaly themes and styles. It is the only instance in the project where code was directly 'borrowed' and then adapted. It is this core code that causes the error due to the use of a 'nav' inside a 'label' in that particular context. The original code can be found [here](https://alvarotrigo.com/blog/hamburger-menu-css-responsive/).
 
