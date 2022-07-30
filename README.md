@@ -95,8 +95,14 @@ In most cases, wireframe design was adhered to, but in some cases the design was
 - The Awesome Audio website is built with responsive design and is effective for viewports >450vw
 <br />
 - Interactive elements:
-  - An always visible navigation bar with in-page links and cross-site links that indicates which main page you are currently viewing.
-  - Navagation text hides below 900vw and can be revealed when clicking the top left logo icon, this is to tidy up the design on smaller screens.
+  - An always visible navigation bar with in-page links and cross-site links that indicates which main page you are currently viewing
+  <br />
+  <img src="./assets/images/README%20Images/main-page.png" width=400px>
+  <br />
+  - Hamburger menu for screens < 840px
+  <br />
+  <img src="assets/images/README%20Images/hamburger-menu.png" width=200px>
+
   - About Us information cards with internal links to relevant information
   - Gallery with organised images
   - Other interactive elements such as: jump to top button, footer with social links, and a submittable contact page with confirmation and thank you message.
